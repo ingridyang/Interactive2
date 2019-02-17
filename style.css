@@ -1,8 +1,16 @@
+/* CSS files add styling rules to your content */
+body{
+		margin: 0px;
+		width: 100%;
+		min-height: 100%;
+		background-color: black;
+		position: absolute;
+	}
 .letter {
 	position: relative;
 	float:left;
-	width:150px;
-	height:100px;
+	width:200px;
+	height:250px;
 	margin-top: 100px;
 	margin-left: 100px;
 }
@@ -12,7 +20,7 @@
 .rightstem {
 	width: 2px;
 	height: 100px;
-	background: black;
+	background: white;
 	transform: rotate(5deg);
 	margin-top: -2px;
 	margin-left: -1px;
@@ -20,14 +28,14 @@
 .rightstem2 {
 	width: 2px;
 	height: 100px;
-	background: black;
+	background: white;
 	transform: rotate(5deg); 
 	margin-left: 10px;
 }
 .curve {
 	width:30px; height:100px;  
-  	border:solid 2px #000;
- 	border-color:#000 transparent transparent transparent;
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
   	border-radius: 50%/30px 18px 0 0;
 	transform: rotate(52deg);
 	margin-left: -56px; 
@@ -36,7 +44,7 @@
 .tophorizontalline {
 	width: 2px;
 	height: 80px;
-	background: black;
+	background: white;
 	transform: rotate(90deg);
 	margin-top: -65px;
 	margin-left: 30px;
@@ -44,22 +52,22 @@
 .virticalline {
 	width: 2px;
 	height: 10px;
-	background:black;
+	background: white;
 	margin-top: -26px;
 	margin-left:-10px;
 }
 .rightdecender {
 	width: 2px;
 	height: 240px;
-	background: black;
+	background: white;
 	transform: rotate(165deg);
 	margin-left: 45px;
 	margin-top: -7px;
 }
 .curvebottom {
 	width:30px; height:240px;  
-  	border:solid 2px #000;
- 	border-color:#000 transparent transparent transparent;
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
   	border-radius: 50%/20px 30px 0 0;
 	transform: rotate(140deg);
 	margin-top: -108px;
@@ -67,8 +75,8 @@
 }
 .curvebottomreverse {
 	width:30px; height:240px;  
-  	border:solid 2px #000;
- 	border-color:#000 transparent transparent transparent;
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
   	border-radius: 50%/24px 45px 0 0;
 	transform: rotate(220deg);
 	margin-top: -108px;
@@ -77,21 +85,21 @@
 .vline2{
 	width: 2px;
 	height: 10px;
-	background:black;
+	background:white;
 	margin-top: 108px;
 	margin-left:-21px;
 }
 .vline3{
 	width: 2px;
 	height: 10px;
-	background:black;
+	background:white;
 	margin-top: 108px;
 	margin-left:20px;
 }
 .linebottomr {
 	width: 2px;
 	height: 43px;
-	background: black;
+	background: white;
 	transform: rotate(90deg);
 	margin-top: 97px;
 	margin-left: -1px;
@@ -99,7 +107,7 @@
 .leftdecender{
 	width: 2px;
 	height: 240px;
-	background: black;
+	background: white;
 	transform: rotate(190deg);
 	margin-left: 97px;
 	margin-top: -10px;
@@ -107,7 +115,7 @@
 .topdesender {
 	width: 2px;
 	height: 90px;
-	background: black;
+	background: white;
 	transform: rotate(350deg);
 	margin-top: -26px;
 	margin-left: 77px;
@@ -115,7 +123,7 @@
 .topdesenderrev {
 	width: 2px;
 	height: 90px;
-	background: black;
+	background: white;
 	transform: rotate(190deg);
 	margin-top: -26px;
 	margin-left: 93px;
@@ -123,7 +131,7 @@
 .topline {
 	width: 2px;
 	height: 80px;
-	background: black;
+	background: white;
 	transform: rotate(90deg);
 	margin-top: -65px;
 	margin-left: 140px;
@@ -131,15 +139,15 @@
 .downdesender {
 	width: 2px;
 	height: 100px;
-	background: black;
+	background: white;
 	transform: rotate(355deg);
 	margin-top: -10px; 
 	margin-left: 122px;
 }
 .curvebottom2 {
 	width:30px; height:240px;  
-  	border:solid 2px #000;
- 	border-color:#000 transparent transparent transparent;
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
   	border-radius: 50%/ 30px 20px 0 0;
 	transform: rotate(140deg);
 	margin-top: -115px;
@@ -147,8 +155,8 @@
 }
 .curvebottomreverse2 {
 	width:30px; height:240px;  
-  	border:solid 2px #000;
- 	border-color:#000 transparent transparent transparent;
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
   	border-radius: 50%/30px 30px 0 0;
 	transform: rotate(220deg);
 	margin-top: -115px;
@@ -157,7 +165,7 @@
 .lineright {
 	width: 2px;
 	height: 80px;
-	background: black;
+	background: white;
 	transform: rotate(90deg);
 	margin-top: 75px;
 	margin-left: 151px;
@@ -165,22 +173,22 @@
 .lineright2 {
 	width: 2px;
 	height: 14px;
-	background:black;
+	background:white;
 	margin-top: 102px;
 	margin-left:110px;
 }
 .rightdesenderrev {
 	width: 2px;
 	height: 95px;
-	background: black;
+	background: white;
 	transform: rotate(175deg);
 	margin-top: 0px;
 	margin-left: 170px;
 }
 .curvetopeverse {
 	width:30px; height:240px;  
-  	border:solid 2px #000;
- 	border-color:#000 transparent transparent transparent;
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
   	border-radius: 50%/24px 50px 0 0;
 	transform: rotate(310deg);
 	margin-top: -55px;
@@ -189,14 +197,14 @@
 .linerighttop {
 	width: 2px;
 	height: 14px;
-	background: black;
+	background: white;
 	margin-top: -26px;
 	margin-left: 180px;
 }
 .linerightbottom {
 	width: 2px;
 	height: 14px;
-	background: black;
+	background: white;
 	margin-top: 100px;
 	margin-left: 190px;
 }
@@ -210,20 +218,20 @@
 .leftstem {
 	width: 2px;
 	height: 110px;
-	background: black;
+	background: white;
 	margin-top: -10px;
 }
 .leftstem2 {
 	width: 2px;
 	height: 110px;
-	background: black;
+	background: white;
 	margin-top: -10px;
 	margin-left: 12px;
 }
 .lowcurven {
 	width:30px; height:240px;  
-  	border:solid 2px #000;
- 	border-color:#000 transparent transparent transparent;
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
   	border-radius: 50%/20px 40px 0 0;
 	transform: rotate(35deg);
 	margin-top: -39px;
@@ -232,7 +240,7 @@
 .topleftlinen {
 	width: 3px;
 	height: 180px;
-	background: black;
+	background: white;
 	transform: rotate(90deg);
 	margin-top: -358px;
 	margin-left: 68px;
@@ -240,14 +248,14 @@
 .virticalleftlinen {
 	width: 2px;
 	height: 10px;
-	background:black;
+	background:white;
 	margin-top: -27px;
 	margin-left:-15px;
 }
 .bottomcurven {
 	width:30px; height:240px;  
-  	border:solid 2px #000;
- 	border-color:#000 transparent transparent transparent;
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
   	border-radius: 50%/20px 40px 0 0;
 	transform: rotate(130deg);
 	margin-top: -90px;
@@ -256,14 +264,14 @@
 .virticalbottomleftlinen {
 	width: 2px;
 	height: 10px;
-	background:black;
+	background:white;
 	margin-top: 111px;
 	margin-left:-15px;
 }
 .bottomlinen {
 	width: 2px;
 	height: 44px;
-	background:black;
+	background:white;
 	margin-top: 100px;
 	margin-left:6px;
 	transform: rotate(90deg);
@@ -271,14 +279,14 @@
 .virticalleftbottomlinen {
 	width: 2px;
 	height: 13px;
-	background:black;
+	background:white;
 	margin-top: 110px;
 	margin-left:28px;
 }
 .bottomcurvenreverse {
 	width:30px; height:240px;  
-  	border:solid 2px #000;
- 	border-color:#000 transparent transparent transparent;
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
   	border-radius: 50%/20px 40px 0 0;
 	transform: rotate(215deg);
 	margin-top: -112px;
@@ -287,7 +295,7 @@
 .lefttiltn {
 	width: 2px;
 	height: 249px;
-	background: black;
+	background: white;
 	margin-left: 64px;
 	margin-top: -22px;
 	transform: rotate(155deg);
@@ -295,7 +303,7 @@
 .lefttiltn2 {
 	width: 2px;
 	height: 153px;
-	background: black;
+	background: white;
 	margin-left: 91px;
 	margin-top: -35px;
 	transform: rotate(155deg);
@@ -303,21 +311,21 @@
 .rightstemn {
 	width: 2px;
 	height: 120px;
-	background: black;
+	background: white;
 	margin-left: 123px;
 	margin-top: -10px;
 }
 .rightstemn2 {
 	width: 2px;
 	height:226px;
-	background: black;
+	background: white;
 	margin-left: 145px;
 	margin-top: -10px;
 }
 .curverightnreverse {
 	width:30px; height:240px;  
-  	border:solid 2px #000;
- 	border-color:#000 transparent transparent transparent;
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
   	border-radius: 50%/25px 35px 0 0;
 	transform: rotate(40deg);
 	margin-top: -44px;
@@ -325,8 +333,8 @@
 }
 .curverightn {
 	width:30px; height:240px;  
-  	border:solid 2px #000;
- 	border-color:#000 transparent transparent transparent;
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
   	border-radius: 50%/15px 45px 0 0;
 	transform: rotate(300deg);
 	margin-top: -75px;
@@ -335,7 +343,7 @@
 .toplinerightn {
 	width: 2px;
 	height: 75px;
-	background:black;
+	background:white;
 	margin-top: -65px;
 	margin-left: 22px;
 	transform: rotate(90deg);
@@ -343,21 +351,21 @@
 .virticalrightlinen {
 	width: 2px;
 	height: 10px;
-	background:black;
+	background:white;
 	margin-top: -26px;
 	margin-left:108px;
 }
 .virticalrightlinen2 {
 	width: 2px;
 	height: 10px;
-	background:black;
+	background:white;
 	margin-top: -26px;
 	margin-left:158px;
 }
 .toplinerightn2 {
 	width: 2px;
 	height: 50px;
-	background:black;
+	background:white;
 	margin-top: -50px;
 	margin-left: 134px;
 	transform: rotate(90deg);
@@ -365,7 +373,7 @@
 .bottomlinerightn {
 	width: 2px;
 	height: 30px;
-	background:black;
+	background:white;
 	margin-top: 200px;
 	margin-left: 130px;
 	transform: rotate(90deg);
@@ -379,7 +387,7 @@
 .stemleftu{
 	width: 2px;
 	height: 180px;
-	background: black;
+	background: white;
 }
 .bowlu {
 	width: 100px;
@@ -387,14 +395,14 @@
     margin-top: 175px;
     border-top-left-radius: 110px;  /* 100px of height + 10px of border */
     border-top-right-radius: 110px; /* 100px of height + 10px of border */
-    border: 2px solid black;
+    border: 2px solid white;
     border-bottom: 0;
     transform: rotate(180deg);
 }
 .stemleftu2{
 	width: 2px;
 	height: 170px;
-	background: black;
+	background: white;
 	margin-left: 65px;
 	margin-top: 5px;
 }
@@ -405,28 +413,28 @@
     margin-left: 65px;
     border-top-left-radius: 110px;  /* 100px of height + 10px of border */
     border-top-right-radius: 110px; /* 100px of height + 10px of border */
-    border: 2px solid black;
+    border: 2px solid white;
     border-bottom: 0;
     transform: rotate(180deg);
 }
 .stemrightu{
 	width: 2px;
 	height: 165px;
-	background: black;
+	background: white;
 	margin-left: 102px;
 	margin-top: 7px;
 }
 .stemrightu2{
 	width: 2px;
 	height: 80px;
-	background: black;
+	background: white;
 	margin-left: 160px;
 	margin-top: 9px;
 }
 .curverightu{
 	width:30px; height:240px;  
-  	border:solid 2px #000;
- 	border-color:#000 transparent transparent transparent;
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
   	border-radius: 50%/15px 45px 0 0;
 	transform: rotate(40deg);
 	margin-top: -35px;
@@ -434,8 +442,8 @@
 }
 .curverightu2{
 	width:30px; height:240px;  
-  	border:solid 2px #000;
- 	border-color:#000 transparent transparent transparent;
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
   	border-radius: 50%/15px 45px 0 0;
 	transform: rotate(300deg);
 	margin-top: -65px;
@@ -443,8 +451,8 @@
 }
 .curverightreverseu{
 	width:30px; height:240px;  
-  	border:solid 2px #000;
- 	border-color:#000 transparent transparent transparent;
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
   	border-radius: 50%/15px 45px 0 0;
 	transform: rotate(300deg);
 	margin-top: -63px;
@@ -452,8 +460,8 @@
 }
 .curveleftu{
 	width:30px; height:240px;  
-  	border:solid 2px #000;
- 	border-color:#000 transparent transparent transparent;
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
   	border-radius: 50%/20px 40px 0 0;
 	transform: rotate(35deg);
 	margin-top: -27px;
@@ -461,8 +469,8 @@
 }
 .curveleftreverseu{
 	width:30px; height:240px;  
-  	border:solid 2px #000;
- 	border-color:#000 transparent transparent transparent;
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
   	border-radius: 50%/25px 40px 0 0;
 	transform: rotate(215deg);
 	margin-top: -124px;
@@ -471,7 +479,7 @@
 .bottomlineu {
 	width: 2px;
 	height: 75px;
-	background:black;
+	background:white;
 	margin-top: 70px;
 	margin-left:139px;
 	transform: rotate(90deg);
@@ -479,42 +487,42 @@
 .virticallineu {
 	width: 2px;
 	height: 11px;
-	background:black;
+	background:white;
 	margin-top: 97px;
 	margin-left:176px;
 }
 .virticallinetoprightu {
 	width: 2px;
 	height: 11px;
-	background:black;
+	background:white;
 	margin-top: -18px;
 	margin-left:78px;
 }
 .virticallinetoprightu2 {
 	width: 2px;
 	height: 10px;
-	background:black;
+	background:white;
 	margin-top: -19px;
 	margin-left:-15px;
 }
 .virticallinetopleftu {
 	width: 2px;
 	height: 12px;
-	background:black;
+	background:white;
 	margin-top: -18px;
 	margin-left: 87px;
 }
 .virticallinetopleftu2 {
 	width: 2px;
 	height: 12px;
-	background:black;
+	background:white;
 	margin-top: -18px;
 	margin-left: 172px;
 }
 .toplineu {
 	width: 2px;
 	height: 94px;
-	background:black;
+	background:white;
 	margin-top: -66px;
 	margin-left:32px;
 	transform: rotate(90deg);
@@ -522,7 +530,7 @@
 .toplineu2 {
 	width: 2px;
 	height: 87px;
-	background:black;
+	background:white;
 	margin-top: -62px;
 	margin-left:130px;
 	transform: rotate(90deg);
@@ -537,28 +545,28 @@
 .toplinev {
 	width: 2px;
 	height: 90px;
-	background:black;
+	background:white;
 	margin-top: -70px;
 	transform: rotate(90deg);
 }
 .virticallinetopleftv {
 	width: 2px;
 	height: 15px;
-	background:black;
+	background:white;
 	margin-top: -25px;
 	margin-left: -45px;
 }
 .virticallinetopleftv2 {
 	width: 2px;
 	height: 15px;
-	background:black;
+	background:white;
 	margin-top: -25px;
 	margin-left: 45px;
 }
 .curvetopv{
 	width:30px; height:240px;  
-  	border:solid 2px #000;
- 	border-color:#000 transparent transparent transparent;
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
   	border-radius: 50%/50px 60px 0 0;
 	transform: rotate(300deg);
 	margin-top: -69px;
@@ -566,8 +574,8 @@
 }
 .curvetopv2{
 	width:30px; height:240px;  
-  	border:solid 2px #000;
- 	border-color:#000 transparent transparent transparent;
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
   	border-radius: 50%/60px 0px 0 0;
 	transform: rotate(60deg);
 	margin-top: -69px;
@@ -576,7 +584,7 @@
 .stemv {
 	width: 2px;
 	height: 250px;
-	background:black;
+	background:white;
 	margin-top: -12px;
 	margin-left: 35px;
 	transform: rotate(150deg);
@@ -584,7 +592,7 @@
 .stemv2 {
 	width: 2px;
 	height: 160px;
-	background:black;
+	background:white;
 	margin-top: -9px;
 	margin-left: 75px;
 	transform: rotate(150deg);
@@ -592,7 +600,7 @@
 .stemvreverse {
 	width: 2px;
 	height: 90px;
-	background:black;
+	background:white;
 	margin-top: 55px;
 	margin-left: 133px;
 	transform: rotate(25deg);
@@ -600,15 +608,15 @@
 .stemvreverse2 {
 	width: 2px;
 	height: 175px;
-	background:black;
+	background:white;
 	margin-top: 55px;
 	margin-left: 134px;
 	transform: rotate(25deg);
 }
 .curvetoprightv{
 	width:30px; height:240px;  
-  	border:solid 2px #000;
- 	border-color:#000 transparent transparent transparent;
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
   	border-radius: 50%/90px 40px 0 0;
 	transform: rotate(60deg);
 	margin-top: -10px;
@@ -616,8 +624,8 @@
 }
 .curvetoprightv2{
 	width:30px; height:240px;  
-  	border:solid 2px #000;
- 	border-color:#000 transparent transparent transparent;
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
   	border-radius: 50%/10px 40px 0 0;
 	transform: rotate(310deg);
 	margin-top: 10px;
@@ -626,21 +634,21 @@
 .virticallinetoprightv {
 	width: 2px;
 	height: 14px;
-	background:black;
+	background:white;
 	margin-top: 36px;
 	margin-left:141px;
 }
 .virticallinetoprightv2 {
 	width: 2px;
 	height: 15px;
-	background:black;
+	background:white;
 	margin-top: 37px;
 	margin-left: 185px;
 }
 .toplinerightv {
 	width: 2px;
 	height: 46px;
-	background:black;
+	background:white;
 	margin-top: 14px;
 	margin-left:163px;
 	transform: rotate(90deg);
@@ -649,16 +657,14 @@
 
 
 .a{
-	left: 20px;
+	left: -30px;
 	top: 100px;
-	transform: scale(0.9);
-	transform: rotate(180deg);
-	
+	transform: rotate(180deg) translateY(150px) scale(.9);
 }
 .bottomlinea {
 	width: 2px;
 	height: 101px;
-	background:black;
+	background:white;
 	margin-top: -16px;
 	margin-left: -5.5px;
 	transform: rotate(90deg);
@@ -666,7 +672,7 @@
 .bottomlinea2 {
 	width: 2px;
 	height: 75px;
-	background:black;
+	background:white;
 	margin-top: 51px;
 	margin-left: 83px;
 	transform: rotate(90deg);
@@ -674,21 +680,21 @@
 .virticallinebottomlefta {
 	width: 2px;
 	height: 15px;
-	background:black;
+	background:white;
 	margin-top: 35px;
 	margin-left: -55px;
 }
 .virticallinebottomlefta2 {
 	width: 2px;
 	height: 15px;
-	background:black;
+	background:white;
 	margin-top: 35px;
 	margin-left: 44px;
 }
 .curvetopa{
 	width:30px; height:240px;  
-  	border:solid 2px #000;
- 	border-color:#000 transparent transparent transparent;
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
   	border-radius: 50%/50px 60px 0 0;
 	transform: rotate(300deg);
 	margin-top: -9px;
@@ -696,18 +702,17 @@
 }
 .curvetopa2{
 	width:30px; height:240px;  
-  	border:solid 2px #000;
- 	border-color:#000 transparent transparent transparent;
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
   	border-radius: 50%/60px 0px 0 0;
 	transform: rotate(63deg);
 	margin-top: -15px;
 	margin-left: -169px;
 }
-
 .stema {
 	width: 2px;
 	height: 180px;
-	background:black;
+	background:white;
 	margin-top: 55px;
 	margin-left: -10px;
 	transform: rotate(160deg);
@@ -715,7 +720,7 @@
 .stema2 {
 	width: 2px;
 	height: 30px;
-	background:black;
+	background:white;
 	margin-top: 60px;
 	margin-left: 40px;
 	transform: rotate(160deg);
@@ -723,7 +728,7 @@
 .stemareverse {
 	width: 2px;
 	height: 140px;
-	background:black;
+	background:white;
 	margin-top: -45px;
 	margin-left: 150px;
 	transform: rotate(25deg);
@@ -731,15 +736,15 @@
 .stemareverse2 {
 	width: 2px;
 	height: 300px;
-	background:black;
+	background:white;
 	margin-top: -55px;
 	margin-left: 145px;
 	transform: rotate(25deg);
 }
 .curvetoprighta{
 	width:30px; height:240px;  
-  	border:solid 2px #000;
- 	border-color:#000 transparent transparent transparent;
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
   	border-radius: 50%/90px 40px 0 0;
 	transform: rotate(60deg);
 	margin-top: -110px;
@@ -747,27 +752,40 @@
 }
 .curvetoprighta2{
 	width:30px; height:240px;  
-  	border:solid 2px #000;
- 	border-color:#000 transparent transparent transparent;
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
   	border-radius: 50%/10px 40px 0 0;
 	transform: rotate(310deg);
 	margin-top: -92px;
 	margin-left: 289px;
 }
-.trianglea {
-  width: 0;
-  height: 0;
-  border-left: 25px solid transparent;
-  border-right: 25px solid transparent;
-  border-bottom: 60px solid black;
-  transform: rotate(180deg);
-  margin-top: 110px;
-  margin-left: 55px;
+
+.triangle1{
+  width: 2px;
+  height: 70px;
+  background: white;
+  transform: rotate(24deg);
+  margin-top:120px;
+  margin-left: 95px;
 }
+.triangle2{
+  width: 2px;
+  height:68px;
+  background: white;
+  transform: rotate(160deg);
+  margin-top:121px;
+  margin-left: 69px;}
+.triangle3{
+  width: 2px;
+  height:53px;
+  background: white;
+  transform: rotate(90deg);
+  margin-top:97px;
+  margin-left: 83px;}
 .toplinea {
 	width: 2px;
 	height: 63px;
-	background:black;
+	background:white;
 	margin-top: 199px;
 	margin-left:51px;
 	transform: rotate(90deg);
@@ -775,21 +793,21 @@
 .virticallinetoprighta {
 	width: 2px;
 	height: 14px;
-	background:black;
+	background:white;
 	margin-top: -64px;
 	margin-left:170px;
 }
 .virticallinetoprighta2 {
 	width: 2px;
 	height: 15px;
-	background:black;
+	background:white;
 	margin-top: -64px;
 	margin-left: 224px;
 }
 .toplinerighta {
 	width: 2px;
 	height: 55px;
-	background:black;
+	background:white;
 	margin-top: -92px;
 	margin-left:197px;
 	transform: rotate(90deg);
@@ -799,59 +817,1029 @@
 
 
 .b{
-	left:100px;
-	top: -30px;
-	transform: scale(0.8);
-
+	left:50px;
+	top: -40px;
+  transform: scale(0.95);
 }
 .topbline{
 	width: 2px;
-	height: 150px;
-	background:black;
+	height: 130px;
+	background: white;
 	margin-top: -92px;
 	transform: rotate(90deg);
 }
 .bowlbtop{
-	width: 90px;
-    height: 70px; /* as the half of the width*/
-    margin-top: -7px;
-    margin-left: 60px;
-    border-top-left-radius: 110px;  /* 100px of height + 10px of border */
-    border-top-right-radius: 110px; /* 100px of height + 10px of border */
-    border: 2px solid black;
+	width: 80px;
+    height: 50px; /* as the half of the width*/
+    margin-top: -12px;
+    margin-left: 40px;
+    border-top-left-radius: 120px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 100px; /* 100px of height + 10px of border */
+    border: 2px solid white;
     border-bottom: 0;
     transform: rotate(90deg);
 }
 .bowlbbottom{
-	width: 210px;
-    height: 80px; /* as the half of the width*/
-    margin-top: 140px;
-    margin-left: 10px;
-    border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+	width: 190px;
+    height: 79px; /* as the half of the width*/
+    margin-top: 110px;
+    margin-left: -14px;
+    border-top-left-radius: 100px;  /* 100px of height + 10px of border */
     border-top-right-radius: 110px; /* 100px of height + 10px of border */
-    border: 2px solid black;
+    border: 2px solid white;
     border-bottom: 0;
     transform: rotate(90deg);
 }
 .bottombline{
 	width: 2px;
-	height: 150px;
-	background:black;
-	margin-top: 212px;
+	height: 105px;
+	background:white;
+	margin-top: 194px;
+  margin-left: -11px;
 	transform: rotate(90deg);
 }
 .stemb{
 	width: 2px;
-	height: 270px;
-	background:black;
-	margin-left: -60px;
+	height: 200px;
+	background:white;
+	margin-left: -50px;
+  margin-top: 8px;
 }
 .curvetopb{
 	width:30px; height:240px;  
-  	border:solid 2px #000;
- 	border-color:#000 transparent transparent transparent;
-  	border-radius: 50%/10px 40px 0 0;
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/15px 35px 0 0;
 	transform: rotate(40deg);
+	margin-top: -30px;
+	margin-left: -147px;
+}
+.curvebottomb{
+  width:30px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/15px 35px 0 0;
+	transform: rotate(120deg);
+	margin-top: 35px;
+	margin-left: -173px;
+}
+.virticaltopb{
+  width: 2px;
+	height: 23px;
+	background:white;
+	margin-top: -28px;
+  margin-left: -65px;
+}
+.virticalbottomb{
+  width: 2px;
+	height: 24px;
+	background:white;
+	margin-top: 222px;
+  margin-left: -62px;
+}
+.virticaltopcurveb{
+  width: 2px;
+	height: 53px;
+	background:white;
+	margin-top: -13px;
+  margin-left: 22px;
+}
+.curvetopinsideb{
+  width: 50px;
+  height: 15px; /* as the half of the width*/
+  margin-top: 5px;
+  margin-left: 5px;
+  border-top-left-radius: 120px;  /* 100px of height + 10px of border */
+  border-top-right-radius: 120px; /* 100px of height + 10px of border */
+  border: 2px solid white;
+  border-bottom: 0;
+  transform: rotate(90deg);
+}
+.virticalbottomcurveb{
+  width: 2px;
+	height: 130px;
+	background:white;
+	margin-top: 80px;
+  margin-left: 22px;
+}
+.curvebottominsideb{
+  width: 130px;
+  height: 38px; /* as the half of the width*/
+  margin-top: 125px;
+  margin-left: -25px;
+  border-top-left-radius: 160px;  /* 100px of height + 10px of border */
+  border-top-right-radius: 140px; /* 100px of height + 10px of border */
+  border: 2px solid white;
+  border-bottom: 0;
+  transform: rotate(90deg);
+}
+
+
+
+.c{
+ left: -70px;
+}
+.bowlc{
+  width: 260px;
+  height: 160px; /* as the half of the width*/
+  margin-top: -7px;
+  border-top-left-radius: 260px;  /* 100px of height + 10px of border */
+  border-top-right-radius: 240px; /* 100px of height + 10px of border */
+  border: 2px solid white;
+  border-bottom: 0;
+  transform: rotate(260deg);
+}
+
+
+
+.d{
+  left:60px;
+  top: -45px;
+}
+  .topdline{
+	width: 2px;
+	height: 130px;
+	background: white;
 	margin-top: -92px;
-	margin-left: px;
+	transform: rotate(90deg);
+}
+.bowld{
+	width: 272px;
+  height: 60px; /* as the half of the width*/
+  margin-top: 79px;
+  margin-left: -45px;
+  border-top-left-radius: 120px;  /* 100px of height + 10px of border */
+  border-top-right-radius: 100px; /* 100px of height + 10px of border */
+  border: 2px solid white;
+  border-bottom: 0;
+  transform: rotate(90deg);
+}
+.bottomdline{
+	width: 2px;
+	height: 126px;
+	background:white;
+	margin-top: 184px;
+  margin-left: -0px;
+	transform: rotate(90deg);
+}
+.stemd{
+	width: 2px;
+	height: 200px;
+	background:white;
+	margin-left: -50px;
+  margin-top: 8px;
+}
+.steminsided{
+	width: 2px;
+	height: 184px;
+	background:white;
+	margin-left: 16px;
+  margin-top: 7px;
+}
+.curvetopd{
+	width:30px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/15px 35px 0 0;
+	transform: rotate(40deg);
+	margin-top: -30px;
+	margin-left: -147px;
+}
+.curvebottomd{
+  width:30px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/15px 35px 0 0;
+	transform: rotate(120deg);
+	margin-top: 35px;
+	margin-left: -173px;
+}
+.virticaltopd{
+  width: 2px;
+	height: 23px;
+	background:white;
+	margin-top: -28px;
+  margin-left: -65px;
+}
+.virticalbottomd{
+  width: 2px;
+	height: 24px;
+	background:white;
+	margin-top: 222px;
+  margin-left: -62px;
+}
+.curvetopinsided{
+  width: 180px;
+  height: 46px; /* as the half of the width*/
+  margin-top: 75px;
+  margin-left: -50px;
+  border-top-left-radius: 150px;  /* 100px of height + 10px of border */
+  border-top-right-radius: 100px; /* 100px of height + 10px of border */
+  border: 2px solid white;
+  border-bottom: 0;
+  transform: rotate(90deg);
+}
+
+.e{
+  left: 65px;
+  top:-45px;
+}
+.topeline{
+	width: 2px;
+	height: 160px;
+	background: white;
+	margin-top: -109px;
+  margin-left: 14px;
+	transform: rotate(90deg);
+}
+.bottomeline{
+	width: 2px;
+	height: 160px;
+	background:white;
+	margin-top: 165px;
+  margin-left: 17px;
+	transform: rotate(90deg);
+}
+.steme{
+	width: 2px;
+	height: 200px;
+	background:white;
+	margin-left: -50px;
+  margin-top: 8px;
+}
+.curvetope{
+	width:30px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/15px 35px 0 0;
+	transform: rotate(40deg);
+	margin-top: -30px;
+	margin-left: -147px;
+}
+.curvebottome{
+  width:30px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/15px 35px 0 0;
+	transform: rotate(120deg);
+	margin-top: 35px;
+	margin-left: -173px;
+}
+.virticaltope{
+  width: 2px;
+	height: 23px;
+	background:white;
+	margin-top: -28px;
+  margin-left: -65px;
+}
+.virticalbottome{
+  width: 2px;
+	height: 24px;
+	background:white;
+	margin-top: 222px;
+  margin-left: -62px;
+}
+.virticalbottomrighte{
+  width: 2px;
+	height: 70px;
+	background:white;
+	margin-top: 176px;
+  margin-left: 98px;
+}
+.virticaltoprighte{
+  width: 2px;
+	height: 70px;
+	background:white;
+	margin-top: -30px;
+  margin-left: 95px;
+}
+.curverighttope{
+	width:100px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/50px 65px 0 0;
+	transform: rotate(40deg);
+	margin-top: -23px;
+	margin-left: -65px;
+} 
+.curvelefttope{
+  width:100px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/50px 80px 0 0;
+	transform: rotate(130deg);
+	margin-top: 14px;
+	margin-left: -75px;
+}
+.horizontaltoprighte{
+  width: 2px;
+	height: 16px;
+	background:white;
+	margin-top: 32px;
+  margin-left: 88px;
+  transform: rotate(90deg)
+}
+.horizontalbottomrighte{
+  width: 2px;
+	height: 18px;
+	background:white;
+	margin-top: 168px;
+  margin-left: 89px;
+  transform: rotate(90deg)
+}
+.horizontaltoprightlonge{
+  width: 2px;
+	height: 20px;
+	background:white;
+	margin-top: -16px;
+  margin-left: 17px;
+  transform: rotate(90deg)
+}
+.horizontalbottomrightlonge{
+  width: 2px;
+	height: 30px;
+	background:white;
+	margin-top: 212px;
+  margin-left: 20px;
+  transform: rotate(90deg)
+}
+.steminsidee{
+  width: 2px;
+	height: 70px;
+	background:white;
+	margin-left: 6px;
+  margin-top: -7px;
+}
+.horizontalsteme{
+  width: 2px;
+	height: 30px;
+	background:white;
+	margin-top: 49px;
+  margin-left: 20px;
+  transform: rotate(90deg)
+}
+.horizontalsteme2{
+  width: 2px;
+	height: 30px;
+	background:white;
+	margin-top: 64px;
+  margin-left: 20px;
+  transform: rotate(90deg)
+}
+.curvetopinsidee{
+  width:30px; height:160px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/14px 40px 0 0;
+	transform: rotate(125deg);
+	margin-top: -68px;
+	margin-left: -37px;
+}
+.curvetopinsidee2{
+  width:30px; height:160px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/12px 45px 0 0;
+	transform: rotate(30deg);
+	margin-top: 70px;
+	margin-left: -12px;
+}
+.horizontaltopinsidee{
+  width: 2px;
+	height: 10px;
+	background:white;
+	margin-top: 43px;
+  margin-left: 53px;
+  transform: rotate(90deg)
+}
+.horizontaltopinsidee2{
+  width: 2px;
+	height: 10px;
+	background:white;
+	margin-top: 87px;
+  margin-left: 53px;
+  transform: rotate(90deg)
+}
+.virticalinsidee{
+  width: 2px;
+	height: 46px;
+	background:white;
+	margin-top: 47px;
+  margin-left: 59px;
+}
+.steminsidee2{
+  width: 2px;
+	height: 148px;
+	background:white;
+	margin-left: 6px;
+  margin-top: 80px;
+}
+
+
+
+.f{
+  left: 65px;
+  top:-45px;
+}
+.topfline{
+	width: 2px;
+	height: 160px;
+	background: white;
+	margin-top: -109px;
+  margin-left: 14px;
+	transform: rotate(90deg);
+}
+.bottomfline{
+	width: 2px;
+	height: 85px;
+	background:white;
+	margin-top: 203px;
+  margin-left: -20px;
+	transform: rotate(90deg);
+}
+.stemf{
+	width: 2px;
+	height: 200px;
+	background:white;
+	margin-left: -50px;
+  margin-top: 8px;
+}
+.curvetopf{
+	width:30px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/15px 35px 0 0;
+	transform: rotate(40deg);
+	margin-top: -30px;
+	margin-left: -147px;
+}
+.curvebottomf{
+  width:30px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/15px 35px 0 0;
+	transform: rotate(120deg);
+	margin-top: 35px;
+	margin-left: -173px;
+}
+.virticaltopf{
+  width: 2px;
+	height: 23px;
+	background:white;
+	margin-top: -28px;
+  margin-left: -65px;
+}
+.virticalbottomf{
+  width: 2px;
+	height: 24px;
+	background:white;
+	margin-top: 222px;
+  margin-left: -62px;
+}
+.virticaltoprightf{
+  width: 2px;
+	height: 70px;
+	background:white;
+	margin-top: -30px;
+  margin-left: 95px;
+}
+.curverighttopf{
+	width:100px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/50px 65px 0 0;
+	transform: rotate(40deg);
+	margin-top: -23px;
+	margin-left: -65px;
+} 
+.horizontaltoprightf{
+  width: 2px;
+	height: 16px;
+	background:white;
+	margin-top: 32px;
+  margin-left: 88px;
+  transform: rotate(90deg)
+}
+.horizontaltoprightlongf{
+  width: 2px;
+	height: 20px;
+	background:white;
+	margin-top: -16px;
+  margin-left: 17px;
+  transform: rotate(90deg)
+}
+.steminsidef{
+  width: 2px;
+	height: 70px;
+	background:white;
+	margin-left: 6px;
+  margin-top: -7px;
+}
+.horizontalstemf{
+  width: 2px;
+	height: 30px;
+	background:white;
+	margin-top: 49px;
+  margin-left: 20px;
+  transform: rotate(90deg)
+}
+.horizontalstemf2{
+  width: 2px;
+	height: 30px;
+	background:white;
+	margin-top: 64px;
+  margin-left: 20px;
+  transform: rotate(90deg)
+}
+.curvetopinsidef{
+  width:30px; height:160px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/14px 40px 0 0;
+	transform: rotate(125deg);
+	margin-top: -68px;
+	margin-left: -37px;
+}
+.curvetopinsidef2{
+  width:30px; height:160px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/12px 45px 0 0;
+	transform: rotate(30deg);
+	margin-top: 70px;
+	margin-left: -12px;
+}
+.horizontaltopinsidef{
+  width: 2px;
+	height: 10px;
+	background:white;
+	margin-top: 43px;
+  margin-left: 53px;
+  transform: rotate(90deg)
+}
+.horizontaltopinsidef2{
+  width: 2px;
+	height: 10px;
+	background:white;
+	margin-top: 87px;
+  margin-left: 53px;
+  transform: rotate(90deg)
+}
+.virticalinsidef{
+  width: 2px;
+	height: 46px;
+	background:white;
+	margin-top: 47px;
+  margin-left: 59px;
+}
+.steminsidef2{
+  width: 2px;
+	height: 125px;
+	background:white;
+	margin-left: 6px;
+  margin-top: 80px;
+}
+.curvebottomrightf{
+  width:30px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/15px 35px 0 0;
+	transform: rotate(220deg);
+	margin-top: -2px;
+	margin-left: 71px;
+}
+.virticalbottomrightf{
+  width: 2px;
+	height: 30px;
+	background:white;
+	margin-top: 216px;
+  margin-left: 22px;
+}
+
+
+
+.g{
+  left:-70px;
+  top: -20px
+}
+.bowlg{
+  width: 260px;
+  height: 160px; /* as the half of the width*/
+  margin-top: -7px;
+  border-top-left-radius: 260px;  /* 100px of height + 10px of border */
+  border-top-right-radius: 240px; /* 100px of height + 10px of border */
+  border: 2px solid white;
+  border-bottom: 0;
+  transform: rotate(260deg);
+}
+
+
+
+
+.h{
+  top: -80px;
+}
+.stemlefth{
+	width: 2px;
+	height: 220px;
+	background: white;
+}
+.stemlefth2{
+	width: 2px;
+	height: 26px;
+	background: white;
+	margin-left: 65px;
+	margin-top: 4px;
+}
+.stemlefth3{
+	width: 2px;
+	height: 171px;
+	background: white;
+	margin-left: 65px;
+	margin-top: 49px;
+}
+.stemrighth{
+	width: 2px;
+	height: 25px;
+	background: white;
+	margin-left: 102px;
+	margin-top: 5px;
+}
+.stemrightagainh{
+	width: 2px;
+	height: 35px;
+	background: white;
+	margin-left: 102px;
+	margin-top: 50px;
+}
+.stemrighth2{
+	width: 2px;
+	height: 80px;
+	background: white;
+	margin-left: 160px;
+	margin-top: 8px;
+}
+.curverighth{
+	width:30px; height:240px;  
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  	border-radius: 50%/15px 45px 0 0;
+	transform: rotate(40deg);
+	margin-top: -35px;
+	margin-left: -96px;
+}
+.curverighth2{
+	width:30px; height:240px;  
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  	border-radius: 50%/15px 45px 0 0;
+	transform: rotate(300deg);
+	margin-top: -65px;
+	margin-left: 156px;
+}
+.curverightreverseh{
+	width:30px; height:240px;  
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  	border-radius: 50%/10px 40px 0 0;
+	transform: rotate(300deg);
+	margin-top: -65px;
+	margin-left: 252px;
+}
+.curvelefth{
+	width:30px; height:240px;  
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  	border-radius: 50%/15px 40px 0 0;
+	transform: rotate(35deg);
+	margin-top: -28px;
+	margin-left: 13px;
+}
+.curveleftreverseh{
+	width:30px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/20px 40px 0 0;
+	transform: rotate(215deg);
+	margin-top: -126px;
+	margin-left: 217px;
+}
+.curveleftbottomh{
+	width:30px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/20px 40px 0 0;
+	transform: rotate(130deg);
+	margin-top: -105px;
+	margin-left: -10px;
+}
+.bottomlineh{
+	width: 2px;
+	height: 88px;
+	background:white;
+	margin-top: 63px;
+	margin-left:132px;
+	transform: rotate(90deg);
+}
+.virticallineh {
+	width: 2px;
+	height: 12px;
+	background:white;
+	margin-top: 96px;
+	margin-left:176px;
+}
+.virticalline2h {
+	width: 2px;
+	height: 11px;
+	background:white;
+	margin-top: 97px;
+	margin-left: 88px;
+}
+.virticallinetoprighth{
+	width: 2px;
+	height: 11px;
+	background:white;
+	margin-top: -18px;
+	margin-left:78px;
+}
+.virticallinetoprighth2{
+	width: 2px;
+	height: 10px;
+	background:white;
+	margin-top: -19px;
+	margin-left:-15px;
+}
+.virticallinetoplefth {
+	width: 2px;
+	height: 12px;
+	background:white;
+	margin-top: -20px;
+	margin-left: 87px;
+}
+.virticallinetoplefth2 {
+	width: 2px;
+	height: 12px;
+	background:white;
+	margin-top: -20px;
+	margin-left: 173px;
+}
+.toplineh {
+	width: 2px;
+	height: 94px;
+	background:white;
+	margin-top: -66px;
+	margin-left:32px;
+	transform: rotate(90deg);
+}
+.toplineh2 {
+	width: 2px;
+	height: 87px;
+	background:white;
+	margin-top: -63px;
+	margin-left:130px;
+	transform: rotate(90deg);
+}
+.curverightreversebottomh{
+	width:30px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/25px 40px 0 0;
+	transform: rotate(215deg);
+	margin-top: 7px;
+	margin-left: 122px;
+}
+.curverightbottomh{
+	width:30px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/20px 40px 0 0;
+	transform: rotate(130deg);
+	margin-top: 28px;
+	margin-left: -112px;
+}
+.bottomleftlineh{
+	width: 2px;
+	height: 95px;
+	background:white;
+	margin-top: 194px;
+	margin-left:33px;
+	transform: rotate(90deg);
+}
+.connecttoph{
+	width: 2px;
+	height: 37px;
+	background:white;
+	margin-top: 11px;
+	margin-left:84px;
+	transform: rotate(90deg);
+}
+.connectbottomh{
+  width: 2px;
+	height: 37px;
+	background:white;
+	margin-top: 32px;
+	margin-left:84px;
+	transform: rotate(90deg);
+}
+.virticallinebottomrighth{
+	width: 2px;
+	height: 13px;
+	background:white;
+	margin-top: 229px;
+	margin-left:80px;
+}
+.virticallinebottomrighth2{
+	width: 2px;
+	height: 12px;
+	background:white;
+	margin-top: 230px;
+	margin-left:-14px;
+}
+
+
+
+.i{
+  top:-85px;
+  left: 50px
+}
+.stemlefti{
+	width: 2px;
+	height: 220px;
+	background: white;
+}
+.stemlefti2{
+	width: 2px;
+	height: 219px;
+	background: white;
+	margin-left: 65px;
+	margin-top: 4px;
+}
+.curverighti{
+	width:30px; height:240px;  
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  	border-radius: 50%/15px 45px 0 0;
+	transform: rotate(40deg);
+	margin-top: -35px;
+	margin-left: -96px;
+}
+.curverighti2{
+	width:30px; height:240px;  
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  	border-radius: 50%/15px 45px 0 0;
+	transform: rotate(300deg);
+	margin-top: -65px;
+	margin-left: 156px;
+}
+.virticallinetoprighti{
+	width: 2px;
+	height: 11px;
+	background:white;
+	margin-top: -18px;
+	margin-left:78px;
+}
+.virticallinetoprighti2{
+	width: 2px;
+	height: 10px;
+	background:white;
+	margin-top: -19px;
+	margin-left:-15px;
+}
+.toplinei {
+	width: 2px;
+	height: 94px;
+	background:white;
+	margin-top: -66px;
+	margin-left:32px;
+	transform: rotate(90deg);
+}
+.curverightreversebottomi{
+	width:30px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/25px 40px 0 0;
+	transform: rotate(215deg);
+	margin-top: 7px;
+	margin-left: 122px;
+}
+.curverightbottomi{
+	width:30px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/20px 40px 0 0;
+	transform: rotate(130deg);
+	margin-top: 28px;
+	margin-left: -112px;
+}
+.bottomleftlinei{
+	width: 2px;
+	height: 95px;
+	background:white;
+	margin-top: 194px;
+	margin-left:33px;
+	transform: rotate(90deg);
+}
+.virticallinebottomrighti{
+	width: 2px;
+	height: 13px;
+	background:white;
+	margin-top: 229px;
+	margin-left:80px;
+}
+.virticallinebottomrighti2{
+	width: 2px;
+	height: 12px;
+	background:white;
+	margin-top: 230px;
+	margin-left:-14px;
+}
+
+
+
+.j{
+  left: 85px;
+  top: -85px;
+}
+.stemleftj{
+	width: 2px;
+	height: 165px;
+	background: white;
+}
+.stemleftj2{
+	width: 2px;
+	height: 160px;
+	background: white;
+	margin-left: 65px;
+	margin-top: 4px;
+}
+.curverightj{
+	width:30px; height:240px;  
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  	border-radius: 50%/15px 45px 0 0;
+	transform: rotate(40deg);
+	margin-top: -35px;
+	margin-left: -96px;
+}
+.curverightj2{
+	width:30px; height:240px;  
+  	border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  	border-radius: 50%/15px 45px 0 0;
+	transform: rotate(300deg);
+	margin-top: -65px;
+	margin-left: 156px;
+}
+.virticallinetoprightj{
+	width: 2px;
+	height: 11px;
+	background:white;
+	margin-top: -18px;
+	margin-left:78px;
+}
+.virticallinetoprightj2{
+	width: 2px;
+	height: 10px;
+	background:white;
+	margin-top: -19px;
+	margin-left:-15px;
+}
+.toplinej {
+	width: 2px;
+	height: 94px;
+	background:white;
+	margin-top: -66px;
+	margin-left:32px;
+	transform: rotate(90deg);
+}
+.bowlj{
+  width: 180px;
+  height: 80px; /* as the half of the width */
+  margin-top: 164px;
+  margin-left: -117px;
+  border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+  border-top-right-radius: 110px; /* 100px of height + 10px of border */
+  border: 2px solid white;
+  border-bottom: 0;
+  transform: rotate(180deg);
+}
+.bowlj2{
+  width: 90px;
+  height: 40px; /* as the half of the width */
+  margin-top: 164px;
+  margin-left: -92px;
+  border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+  border-top-right-radius: 110px; /* 100px of height + 10px of border */
+  border: 2px solid white;
+  border-bottom: 0;
+  transform: rotate(180deg);
+}
+.bottomlinej {
+	width: 2px;
+	height: 26px;
+	background:white;
+	margin-top: 152px;
+	margin-left: -105px;
+	transform: rotate(90deg);
 }
