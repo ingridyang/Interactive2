@@ -5245,9 +5245,9 @@ border:solid 2px white;
 }
 
 .large{
-  animation: text-flicker-in-glow 7s linear both; 
+  animation: text-flicker-in-glow 15s linear both; 
   animation-delay:-7s;
-  animation-iteration-count:infinite;
+  animation-iteration-count: infinite;
 }
 
 .bottomtext{
