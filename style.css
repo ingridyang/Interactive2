@@ -4766,26 +4766,15 @@ border:solid 2px white;
 
 
 .eight{
+    top: -971px;
+    left: -220px;
+    transform: scale(1);
 }
-.bowlsix{
-   width:245px; height:240px;  
-  border:solid 2px white;
- 	border-color:white transparent transparent transparent;
-  border-radius: 50%/99px 80px 0 0;
-	transform: rotate(-66deg);
-	margin-top: -29px;
-	margin-left: 98px;
+.topeight{
+	    top: 218px;
+    transform: rotate(261deg);
 }
-.bowlsix2{
- width:172px; height:240px;  
-  border:solid 2px white;
- 	border-color:white transparent transparent transparent;
-  border-radius: 50%/99px 80px 0 0;
-	transform: rotate(-66deg);
-	margin-top: -47px;
-	margin-left: 164px;
-}
-.bowlsixtop{
+.bowleighttop{
 	width:115px; height:240px;  
   border:solid 2px white;
  	border-color:white transparent transparent transparent;
@@ -4794,7 +4783,7 @@ border:solid 2px white;
 	margin-top: -48px;
 	margin-left: 138px;
 }
-.bowlsixtop2{
+.bowleighttop2{
 	width:100px; height:240px;  
   border:solid 2px white;
  	border-color:white transparent transparent transparent;
@@ -4803,15 +4792,7 @@ border:solid 2px white;
 	margin-top: -39px;
 	margin-left: 94px;
 }
-.horizontaltopsix3{
-  width: 2px;
-	height: 16px;
-	background:white;
-	margin-top: -35px;
-  margin-left: 181px;
-  transform: rotate(130deg);
-}
-.bowlsixstem1{
+.bowleightstem1{
 	width:112px; height:240px;  
   border:solid 2px white;
  	border-color:white transparent transparent transparent;
@@ -4820,7 +4801,7 @@ border:solid 2px white;
 	margin-top: 43px;
 	margin-left: 61px;
 }
-.bowlsixstem2{
+.bowleightstem2{
   width:65px; height:240px;  
   border:solid 2px white;
  	border-color:white transparent transparent transparent;
@@ -4829,7 +4810,7 @@ border:solid 2px white;
 	margin-top: 80px;
 	margin-left: 156px;
 }
-.bowlsixcurve{
+.bowleightcurve{
 	width:94px; height:240px;  
   border:solid 2px white;
  	border-color:white transparent transparent transparent;
@@ -4838,7 +4819,7 @@ border:solid 2px white;
 	margin-top: -72px;
 	margin-left: 157px;
 }
-.bowlsixcurve2{
+.bowleightcurve2{
 	width:69px; height:240px;  
   border:solid 2px white;
  	border-color:white transparent transparent transparent;
@@ -4847,7 +4828,7 @@ border:solid 2px white;
 	margin-top: 42px;
 	margin-left: 51px;
 }
-.bowlsixcurve3{
+.bowleightcurve3{
 	width:76px; height:240px;  
   border:solid 2px white;
  	border-color:white transparent transparent transparent;
@@ -4856,8 +4837,72 @@ border:solid 2px white;
 	margin-top: 88px;
 	margin-left: 192px;
 }
+.bottomeight{
 
-
+}
+.bowleighttopagain{
+	width:115px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/28px 52px 0 0;
+	transform: rotate(-146deg);
+	margin-top: -48px;
+	margin-left: 138px;
+}
+.bowleighttopagain2{
+	width:100px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/43px 57px 0 0;
+	transform: rotate(148deg);
+	margin-top: -39px;
+	margin-left: 94px;
+}
+.bowleightstemagain{
+	width:112px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/63px 41px 0 0;
+	transform: rotate(64deg);
+	margin-top: 43px;
+	margin-left: 61px;
+}
+.bowleightstemagain2{
+  width:65px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/12px 16px 0 0;
+	transform: rotate(349deg);
+	margin-top: 80px;
+	margin-left: 156px;
+}
+.bowleightcurveagain{
+	width:94px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/109px 52px 0 0;
+	transform: rotate(-160deg);
+	margin-top: -72px;
+	margin-left: 157px;
+}
+.bowleightcurveagain2{
+	width:69px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/44px 62px 0 0;
+	transform: rotate(73deg);
+	margin-top: 42px;
+	margin-left: 51px;
+}
+.bowleightcurveagain3{
+	width:76px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/20px 58px 0 0;
+	transform: rotate(-38deg);
+	margin-top: 88px;
+	margin-left: 192px;
+}
 
 .nine{
   transform: rotate(180deg);
