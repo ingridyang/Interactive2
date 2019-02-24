@@ -1096,9 +1096,9 @@ border:solid 2px white;
 
 
 .c{
- left: -160px;
-  top: 50px;
-  transform: scale(1);
+ left: -175px;
+  top: 40px;
+  transform: scale(1.15) rotate(10deg);
 }
 .bowlc{
   width: 200px;
@@ -1126,7 +1126,7 @@ border:solid 2px white;
 	width:100px; height:240px;  
   border:solid 2px white;
  	border-color:white transparent transparent transparent;
-  border-radius: 50%/155px 50px 0 0;
+  border-radius: 50%/181px 50px 0 0;
 	transform: rotate(30deg);
 	margin-top: -45px;
 	margin-left: 75px;
@@ -1144,7 +1144,7 @@ border:solid 2px white;
 	width:20px; height:240px;  
   border:solid 2px white;
  	border-color:white transparent transparent transparent;
-  border-radius: 50%/13px 19px 0 0;
+  border-radius: 50%/7px 9px 0 0;
 	transform: rotate(170deg);
 	margin-top: -292px;
 	margin-left: 170px;
@@ -1242,7 +1242,7 @@ border:solid 2px white;
 	width: 2px;
 	height: 126px;
 	background:white;
-	margin-top: 184px;
+	margin-top: 183px;
   margin-left: -0px;
 	transform: rotate(90deg);
 }
@@ -1717,7 +1717,7 @@ border:solid 2px white;
 	width:80px; height:240px;  
   border:solid 2px white;
  	border-color:white transparent transparent transparent;
-  border-radius: 50%/100px 50px 0 0;
+  border-radius: 50%/107px 50px 0 0;
 	transform: rotate(28deg);
 	margin-top: -47px;
 	margin-left: 95px;
@@ -1735,7 +1735,7 @@ border:solid 2px white;
 	width:20px; height:240px;  
   border:solid 2px white;
  	border-color:white transparent transparent transparent;
-  border-radius: 50%/8px 10px 0 0;
+  border-radius: 50%/6px 10px 0 0;
 	transform: rotate(170deg);
 	margin-top: -292px;
 	margin-left: 170px;
@@ -3968,7 +3968,7 @@ border:solid 2px white;
 
 
 .zero{
-  top: -100px;
+  top: -112px;
   left: -1500px;
 }
 .bowlzero{
@@ -4019,8 +4019,8 @@ border:solid 2px white;
 
 
 .one{
-  left: -1550px;
-  top: -150px;
+  left: -1539px;
+  top: -160px;
   transform: scale(0.7)
   
 }
@@ -4208,8 +4208,8 @@ border:solid 2px white;
 
 
 .three{
-  top:-1045px;
-  left: 340px;
+  top:-1052px;
+  left: 328px;
   transform: scale(0.65)
 }
 .stemleftthree{
@@ -4335,8 +4335,8 @@ border:solid 2px white;
 
 
 .four{
-  left: 200px;
-  top: -1040px;
+  left: 186px;
+  top: -1042px;
   transform: rotate(180deg) scale(0.6)
 }
 .bottomlinefour {
@@ -4479,9 +4479,11 @@ border:solid 2px white;
 }
 
 
-
-/*  
+ 
 .five{
+  top: -1039px;
+  left: 129px;
+  transform: scale(0.6)
 }
 .stemleftfive{
 	width: 2px;
@@ -4513,16 +4515,16 @@ border:solid 2px white;
   border:solid 2px white;
  	border-color:white transparent transparent transparent;
   border-radius: 50%/31px 19px 0 0;
-	transform: rotate(209deg);
-	margin-top: 78px;
-	margin-left: 46px;
+	transform: rotate(221deg);
+	margin-top: 95px;
+	margin-left: 64px;
 }
 .bowlfivebottom2{
 	width: 100px;
-    height: 50px; /* as the half of the width 
+    height: 50px; /* as the half of the width */
     margin-top: 175px;
-    border-top-left-radius: 110px;  /* 100px of height + 10px of border 
-    border-top-right-radius: 110px; /* 100px of height + 10px of border 
+    border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 110px; /* 100px of height + 10px of border */
     border: 2px solid white;
     border-bottom: 0;
     transform: rotate(180deg);
@@ -4532,36 +4534,36 @@ border:solid 2px white;
   border:solid 2px white;
  	border-color:white transparent transparent transparent;
   border-radius: 50%/80px 53px 0 0;
-	transform: rotate(170deg);
-	margin-top: 74px;
-	margin-left: 4px;
+	transform: rotate(151deg);
+	margin-top: 90px;
+	margin-left: -5px;
 }
 .bowlfivetop{
 	width:100px; height:240px;  
   border:solid 2px white;
  	border-color:white transparent transparent transparent;
   border-radius: 50%/31px 19px 0 0;
-	transform: rotate(209deg);
-	margin-top: 78px;
-	margin-left: 46px;
+	transform: rotate(221deg);
+	margin-top: 96px;
+	margin-left: 64px;
 }
 .bowlfivebottom2{
 	width:265px; height:270px;  
   border:solid 2px white;
  	border-color:white transparent transparent transparent;
   border-radius: 50%/130px 100px 0 0;
-	transform: rotate(90deg);
-	margin-top: 60px;
-	margin-left: -120px;
+	transform: rotate(75deg);
+	margin-top: 87px;
+	margin-left: -123px;
 }
 .bowlfive2{
 	width:216px; height:270px;  
   border:solid 2px white;
  	border-color:white transparent transparent transparent;
   border-radius: 50%/79px 140px 0 0;
-	transform: rotate(86deg);
-	margin-top: 70px;
-	margin-left: -141px;
+	transform: rotate(80deg);
+	margin-top: 80px;
+	margin-left: -147px;
 }
 .bowlfivebottomagain{
 	width:103px; height:245px;  
@@ -4569,8 +4571,8 @@ border:solid 2px white;
  	border-color:white transparent transparent transparent;
   border-radius: 50%/90px 78px 0 0;
 	transform: rotate(173deg);
-	margin-top: 33px;
-	margin-left: -11px;
+	margin-top: 32px;
+	margin-left: -13px;
 }
 .horizontaltopfiveagain{
   width: 2px;
@@ -4582,7 +4584,7 @@ border:solid 2px white;
 }
 .horizontaltopfiveagain2{
   width: 2px;
-	height: 22px;
+	height: 16px;
 	background:white;
 	margin-top: 261px;
   margin-left: 13px;
@@ -4596,153 +4598,101 @@ border:solid 2px white;
   margin-top: -44px;
   transform: rotate(10deg);
 } 
-*/
 
 
 .six{
-
+  top: -980px;
+  left: -21px;
+  transform: scale(1);
 }
-.bowlg{
-  width: 190px;
-  height: 90px; /* as the half of the width*/
-  margin-top: 23px;
-  margin-left: 52px;
-  border-top-left-radius: 200px;  /* 100px of height + 10px of border */
-  border-top-right-radius: 200px; /* 100px of height + 10px of border */
-  border: 2px solid white;
-  border-bottom: 0;
-  transform: rotate(233deg);
-}
-.bowlg2{
-  width: 155px;
-  height: 40px; /* as the half of the width*/
-  margin-top: 25px;
-  margin-left: 90px;
-  border-top-left-radius: 240px;  /* 100px of height + 10px of border */
-  border-top-right-radius: 240px; /* 100px of height + 10px of border */
-  border: 2px solid white;
-  border-bottom: 0;
-  transform: rotate(265deg);
-}
-.bowlgtop{
-	width:80px; height:240px;  
+.bowlsix{
+   width:245px; height:240px;  
   border:solid 2px white;
  	border-color:white transparent transparent transparent;
-  border-radius: 50%/100px 50px 0 0;
-	transform: rotate(28deg);
-	margin-top: -47px;
-	margin-left: 95px;
+  border-radius: 50%/99px 80px 0 0;
+	transform: rotate(-66deg);
+	margin-top: -29px;
+	margin-left: 98px;
 }
-.bowlgtop2{
+.bowlsix2{
+ width:172px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/99px 80px 0 0;
+	transform: rotate(-66deg);
+	margin-top: -47px;
+	margin-left: 164px;
+}
+.bowlsixtop{
+	width:115px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/28px 52px 0 0;
+	transform: rotate(-146deg);
+	margin-top: -48px;
+	margin-left: 138px;
+}
+.bowlsixtop2{
 	width:100px; height:240px;  
   border:solid 2px white;
  	border-color:white transparent transparent transparent;
-  border-radius: 50%/20px 55px 0 0;
-	transform: rotate(340deg);
-	margin-top: -62px;
-	margin-left: 150px;
+  border-radius: 50%/43px 57px 0 0;
+	transform: rotate(148deg);
+	margin-top: -39px;
+	margin-left: 94px;
 }
-.bowlgtop3{
-	width:20px; height:240px;  
+.horizontaltopsix3{
+  width: 2px;
+	height: 16px;
+	background:white;
+	margin-top: -35px;
+  margin-left: 181px;
+  transform: rotate(130deg);
+}
+.bowlsixstem1{
+	width:112px; height:240px;  
   border:solid 2px white;
  	border-color:white transparent transparent transparent;
-  border-radius: 50%/10px 20px 0 0;
-	transform: rotate(170deg);
-	margin-top: -292px;
-	margin-left: 170px;
+  border-radius: 50%/63px 41px 0 0;
+	transform: rotate(64deg);
+	margin-top: 43px;
+	margin-left: 61px;
 }
-.bowlgbottom{
-	width:30px; height:240px;  
+.bowlsixstem2{
+  width:65px; height:240px;  
   border:solid 2px white;
  	border-color:white transparent transparent transparent;
-  border-radius: 50%/95px 8px 0 0;
-	transform: rotate(160deg);
-	margin-top: -115px;
-	margin-left: 145px;
+  border-radius: 50%/12px 16px 0 0;
+	transform: rotate(349deg);
+	margin-top: 80px;
+	margin-left: 156px;
 }
-.horizontaltopg{
-  width: 2px;
-	height: 14px;
-	background:white;
-	margin-top: -15px;
-  margin-left: 218px;
-  transform: rotate(90deg);
-}
-.horizontaltopg2{
-  width: 2px;
-	height: 17px;
-	background:white;
-	margin-top: -60px;
-  margin-left: 117px;
-}
-.horizontaltopg3{
-  width: 2px;
-	height: 17px;
-	background:white;
-	margin-top: -63px;
-  margin-left: 217px;
-  transform: rotate(90deg);
-}
-.toplineg{
-  width: 2px;
-	height: 48px;
-	background:white;
-	margin-top: -55px;
-  margin-left: 225px;
-}
-.horizontaltopg2{
-  width: 2px;
-	height: 70px;
-	background:white;
-	margin-top: 46px;
-  margin-left: 205.5px;
-}
-.horizontaltopgagain{
-  width: 2px;
-	height: 75px;
-	background:white;
-	margin-top: 44px;
-  margin-left: 242px;
-}
-.toplineg2{
-  width: 2px;
-	height: 61px;
-	background:white;
-	margin-top: -3px;
-  margin-left: 225px;
-  transform: rotate(90deg);
-}
-.bowlgstem1{
-	width:20px; height:240px;  
+.bowlsixcurve{
+	width:94px; height:240px;  
   border:solid 2px white;
  	border-color:white transparent transparent transparent;
-  border-radius: 50%/30px 10px 0 0;
-	transform: rotate(50deg);
-	margin-top: -5px;
-	margin-left: 99px;
+  border-radius: 50%/109px 52px 0 0;
+	transform: rotate(-160deg);
+	margin-top: -72px;
+	margin-left: 157px;
 }
-.bowlgstem2{
-  width:20px; height:240px;  
+.bowlsixcurve2{
+	width:69px; height:240px;  
   border:solid 2px white;
  	border-color:white transparent transparent transparent;
-  border-radius: 50%/35px 10px 0 0;
-	transform: rotate(335deg);
-	margin-top: 26px;
-	margin-left: 285px;
+  border-radius: 50%/44px 62px 0 0;
+	transform: rotate(73deg);
+	margin-top: 42px;
+	margin-left: 51px;
 }
-.bottomvirticalstem{
-  width: 2px;
-	height: 10px;
-	background:white;
-	margin-top: 28px;
-  margin-left: 195px;
-}
-.bottomvirticalstem2{
-  width: 2px;
-	height: 10px;
-	background:white;
-	margin-top: 28px;
-  margin-left: 254px;
+.bowlsixcurve3{
+	width:76px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/20px 58px 0 0;
+	transform: rotate(-38deg);
+	margin-top: 88px;
+	margin-left: 192px;
 }
 
 
@@ -4750,7 +4700,7 @@ border:solid 2px white;
 
 .seven{
   transform: rotate(180deg) scale(0.6);
-  left: -450px;
+  left: -50px;
   top: -1030px;
 }
 .stemleftseven{
@@ -4817,57 +4767,192 @@ border:solid 2px white;
 
 .eight{
 }
-.bowlzero{
-  width: 250px;
-  height: 90px; /* as the half of the width*/
-  margin-top: -5px;
-  margin-left: 40px;
-  border-top-left-radius: 260px;  /* 100px of height + 10px of border */
-  border-top-right-radius: 240px; /* 100px of height + 10px of border */
-  border: 2px solid white;
-  border-bottom: 0;
-  transform: rotate(90deg);
+.bowlsix{
+   width:245px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/99px 80px 0 0;
+	transform: rotate(-66deg);
+	margin-top: -29px;
+	margin-left: 98px;
 }
-.bowlzero2{
-  width: 250px;
-  height: 90px; /* as the half of the width*/
-  margin-top: -5px;
-  margin-left: -52px;
-  border-top-left-radius: 240px;  /* 100px of height + 10px of border */
-  border-top-right-radius: 260px; /* 100px of height + 10px of border */
-  border: 2px solid white;
-  border-bottom: 0;
-  transform: rotate(270deg);
+.bowlsix2{
+ width:172px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/99px 80px 0 0;
+	transform: rotate(-66deg);
+	margin-top: -47px;
+	margin-left: 164px;
 }
-.bowlinsidezero{
-  width: 160px;
-  height: 30px; /* as the half of the width*/
-  margin-top: 15px;
-  margin-left: 57px;
-  border-top-left-radius: 260px;  /* 100px of height + 10px of border */
-  border-top-right-radius: 240px; /* 100px of height + 10px of border */
-  border: 2px solid white;
-  border-bottom: 0;
-  transform: rotate(90deg);
+.bowlsixtop{
+	width:115px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/28px 52px 0 0;
+	transform: rotate(-146deg);
+	margin-top: -48px;
+	margin-left: 138px;
 }
-.bowlinsidezero2{
-  width: 160px;
-  height: 30px; /* as the half of the width*/
-  margin-top:15px;
-  margin-left: 25px;
-  border-top-left-radius: 260px;  /* 100px of height + 10px of border */
-  border-top-right-radius: 240px; /* 100px of height + 10px of border */
-  border: 2px solid white;
-  border-bottom: 0;
-  transform: rotate(270deg);
+.bowlsixtop2{
+	width:100px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/43px 57px 0 0;
+	transform: rotate(148deg);
+	margin-top: -39px;
+	margin-left: 94px;
 }
-
+.horizontaltopsix3{
+  width: 2px;
+	height: 16px;
+	background:white;
+	margin-top: -35px;
+  margin-left: 181px;
+  transform: rotate(130deg);
+}
+.bowlsixstem1{
+	width:112px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/63px 41px 0 0;
+	transform: rotate(64deg);
+	margin-top: 43px;
+	margin-left: 61px;
+}
+.bowlsixstem2{
+  width:65px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/12px 16px 0 0;
+	transform: rotate(349deg);
+	margin-top: 80px;
+	margin-left: 156px;
+}
+.bowlsixcurve{
+	width:94px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/109px 52px 0 0;
+	transform: rotate(-160deg);
+	margin-top: -72px;
+	margin-left: 157px;
+}
+.bowlsixcurve2{
+	width:69px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/44px 62px 0 0;
+	transform: rotate(73deg);
+	margin-top: 42px;
+	margin-left: 51px;
+}
+.bowlsixcurve3{
+	width:76px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/20px 58px 0 0;
+	transform: rotate(-38deg);
+	margin-top: 88px;
+	margin-left: 192px;
+}
 
 
 
 .nine{
+  transform: rotate(180deg);
+  top: -1913px;
+  left: 1900px;
 }
-/* copy from six and rotate upside down */
+.bowlnine{
+   width:245px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/99px 80px 0 0;
+	transform: rotate(-66deg);
+	margin-top: -29px;
+	margin-left: 98px;
+}
+.bowlnine2{
+ width:172px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/99px 80px 0 0;
+	transform: rotate(-66deg);
+	margin-top: -47px;
+	margin-left: 164px;
+}
+.bowlninetop{
+	width:115px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/28px 52px 0 0;
+	transform: rotate(-146deg);
+	margin-top: -48px;
+	margin-left: 138px;
+}
+.bowlninetop2{
+	width:100px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/43px 57px 0 0;
+	transform: rotate(148deg);
+	margin-top: -39px;
+	margin-left: 94px;
+}
+.horizontaltopnine3{
+  width: 2px;
+	height: 16px;
+	background:white;
+	margin-top: -35px;
+  margin-left: 181px;
+  transform: rotate(130deg);
+}
+.bowlninestem1{
+	width:112px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/63px 41px 0 0;
+	transform: rotate(64deg);
+	margin-top: 43px;
+	margin-left: 61px;
+}
+.bowlninestem2{
+  width:65px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/12px 16px 0 0;
+	transform: rotate(349deg);
+	margin-top: 80px;
+	margin-left: 156px;
+}
+.bowlninecurve{
+	width:94px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/109px 52px 0 0;
+	transform: rotate(-160deg);
+	margin-top: -72px;
+	margin-left: 157px;
+}
+.bowlninecurve2{
+	width:69px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/44px 62px 0 0;
+	transform: rotate(73deg);
+	margin-top: 42px;
+	margin-left: 51px;
+}
+.bowlninecurve3{
+	width:76px; height:240px;  
+  border:solid 2px white;
+ 	border-color:white transparent transparent transparent;
+  border-radius: 50%/20px 58px 0 0;
+	transform: rotate(-38deg);
+	margin-top: 88px;
+	margin-left: 192px;
+}
 
 
 
