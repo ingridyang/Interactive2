@@ -1,12 +1,19 @@
 let flipup = document.querySelector('#flipup')
-let phil = document.querySelector('#phil')
-// let element4 = document.querySelector('#element-4')
 let element2 = document.querySelector('#element-2')
 let element3 = document.querySelector('#element-3')
+let sweep = document.querySelector('#sweep')
+let sike = document.querySelector('#sike')
+let scroller = document.querySelector('#scroller')
+let doAThing = document.querySelector('#doAThing')
+
+doAThing.addEventListener('scroll',function(){
+  scroller.style.fontFamily = 'sans-serif'
+})
+
 
 
 flipup.addEventListener('click',function() {
-  
+
   flipup.animate([{
 			opacity: getComputedStyle(this).opacity,
 			marginLeft: getComputedStyle(this).marginLeft,
@@ -25,7 +32,7 @@ flipup.addEventListener('click',function() {
   });
 
 })
-  
+
 element2.addEventListener('pointermove',function(e){
   var xPos = e.pageX-125;
   var yPos = e.pageY;
@@ -45,7 +52,7 @@ element3.addEventListener('pointermove',function(e){
   this.style.left = xPos+'px'
 
 })
-  
+
 // window.addEventListener('pointermove',function(e){
 //   var xPos = e.pageX-125;
 //   var yPos = e.pageY-250;
@@ -56,6 +63,27 @@ element3.addEventListener('pointermove',function(e){
     // sticks on mouse forever
 // })
 
-phil.addEventListener('click',function(){
-  this.classList.t('gradient-background')
+sweep.addEventListener('click',function() {
+
+  sweep.animate([{
+			opacity: getComputedStyle(this).opacity,
+			marginLeft: getComputedStyle(this).marginLeft,
+			fontSize:  getComputedStyle(this).fontSize,
+			borderWidth:  getComputedStyle(this).borderWidth
+		},
+    {
+			opacity: 0.4,
+			marginLeft: '125px',
+			fontSize: '24px',
+			borderWidth: '10px'
+		}], {
+      duration: 200,
+      iterations: 1,
+      fill:'forwards'
+  });
+
+})
+
+sike.addEventListener('click', function(){
+  this.nextElementSibling.classList.toggle('sike');
 })
