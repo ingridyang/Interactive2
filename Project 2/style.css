@@ -1,0 +1,289 @@
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  background-color: #d2c8c8;
+/*   margin: 60px; */
+}
+
+h1 {
+/*   color: #373fff; */
+
+}
+
+.nice{
+    margin-left: 820px;
+    margin-top: -200px;
+}
+
+.container {
+	position: relative;
+}
+
+.item {
+	height: 200px;
+	width: 200px;
+	background: #a3816a;
+	color: #f8f1f1;
+	margin: 100px auto;
+	padding: 10px;
+	box-sizing: border-box;
+  border-radius: 10px;
+	transition: all 500ms ease;
+	cursor: pointer;
+}
+
+.forward {
+  position:relative;
+  z-index: 1000;
+}
+
+#flip:hover {
+	animation: flip 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+  animation-fill-mode:forwards;
+
+}
+  @keyframes flip {
+    0% {
+        transform: rotateX(0);
+      }
+  100% {
+        transform: rotateX(-180deg);
+      }
+  }
+
+
+#swing:active{
+	animation: swing 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation-fill-mode:forwards;
+
+}
+  @keyframes swing {
+    0% {
+            transform: rotateX(0);
+            transform-origin: top;
+      }
+    100% {
+            transform: rotateX(180deg);
+            transform-origin: top;
+      }
+  }
+
+
+#vibrate:active {
+	  animation: vibrate 0.3s linear infinite both;
+  }
+  @keyframes vibrate {
+    0% {
+      transform: translate(0);
+    }
+    20% {
+      transform: translate(-2px, 2px);
+    }
+    40% {
+      transform: translate(-2px, -2px);
+    }
+    60% {
+      transform: translate(2px, 2px);
+    }
+    80% {
+      transform: translate(2px, -2px);
+    }
+    100% {
+      transform: translate(0);
+    }
+  }
+
+
+#wobble:active{
+	  animation: wobble 0.8s;
+}
+  @keyframes wobble {
+    15% {
+      transform: translateX(-30px) rotate(-6deg);
+    }
+    30% {
+      transform: translateX(15px) rotate(6deg);
+    }
+    45% {
+      transform: translateX(-15px) rotate(-3.6deg);
+    }
+    60% {
+      transform: translateX(9px) rotate(2.4deg);
+    }
+    75% {
+      transform: translateX(-6px) rotate(-1.2deg);
+    }
+  }
+
+
+#smol:hover {
+	    animation: smol 0.45s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  animation-fill-mode:forwards;
+
+}
+  @keyframes smol {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.2);
+    }
+  }
+
+
+
+#shadow:hover {
+	    animation: shadow 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  animation-fill-mode:forwards;
+
+  }
+  @keyframes shadow {
+    0% {
+      box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+      transform: translateX(0) translateY(0);
+    }
+    100% {
+      box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+      transform: translateX(-8px) translateY(8px);
+    }
+  }
+
+#flipup:hover {
+	  animation: flipup 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+  animation-fill-mode:forwards;
+}
+  @keyframes flipup {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+       transform: rotate(20deg);
+    }
+  }
+
+#parallax {
+  /* The image used */
+  background-image: url("photos/harvey.jpg");
+
+  /* Set a specific height */
+  height: 200px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#parallax2 {
+  /* The image used */
+  background-image: url("photos/harvey2.jpg");
+
+  /* Set a specific height */
+  height: 200px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+#phil:hover .overlay {
+  opacity: 1;
+}*/
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+#colorful:hover {
+	animation: woo 1s linear infinite both;
+
+	animation-fill-mode:forwards;
+}
+@keyframes woo {
+0% {
+	color: red;
+}
+	50%{
+		color: green;
+	}
+	100%{
+		color: black;
+	}
+}
+
+.flipflop {
+	   animation: flipflop 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+@-webkit-keyframes flip-horizontal-bottom {
+  0% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+  100% {
+    -webkit-transform: rotateX(-180deg);
+            transform: rotateX(-180deg);
+  }
+}
+@keyframes flip-horizontal-bottom {
+  0% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+  100% {
+    -webkit-transform: rotateX(-180deg);
+            transform: rotateX(-180deg);
+  }
+}
+
+
+#element-1:hover {
+	transform: rotate(360deg) scale(1.5);
+/* 	opacity: .3; */
+  background: #d2c8c8;
+  color: red;
+  font-size: 100px;
+}
+
+
+#element-2{
+	transition: none;
+}
+
+
+#element-3{
+	transition: none;
+}
