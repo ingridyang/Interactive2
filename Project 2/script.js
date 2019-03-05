@@ -3,12 +3,7 @@ let element2 = document.querySelector('#element-2')
 let element3 = document.querySelector('#element-3')
 let sweep = document.querySelector('#sweep')
 let sike = document.querySelector('#sike')
-let scroller = document.querySelector('#scroller')
-let doAThing = document.querySelector('#doAThing')
 
-doAThing.addEventListener('scroll',function(){
-  scroller.style.fontFamily = 'sans-serif'
-})
 
 
 
