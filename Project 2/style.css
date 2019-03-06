@@ -522,7 +522,7 @@ h1 {
   }
 }
 
-.jello:active {
+#jello:active {
 	   animation: jello 0.9s both;
 }
 @keyframes jello {
