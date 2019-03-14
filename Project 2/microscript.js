@@ -48,8 +48,14 @@ let mice = document.createElement('audio')
 let hop = document.createElement('audio')
   hop.src = "https://cdn.glitch.com/5ef5b48c-14c3-4d50-96a8-b54848ab0926%2F187024__lloydevans09__jump2.wav?1552550253434"
 
-  let buzz = document.createElement('audio')
-    buzz.src = "https://cdn.glitch.com/5ef5b48c-14c3-4d50-96a8-b54848ab0926%2F102562__earthsounds__bee-buzz.wav?1552550399546"
+let buzz = document.createElement('audio')
+  buzz.src = "https://cdn.glitch.com/5ef5b48c-14c3-4d50-96a8-b54848ab0926%2F102562__earthsounds__bee-buzz.wav?1552550399546"
+
+let moo = document.createElement('audio')
+  moo.src = "https://cdn.glitch.com/5ef5b48c-14c3-4d50-96a8-b54848ab0926%2F275154__bird-man__moo.wav?1552602244406"
+
+  let hoo = document.createElement('audio')
+    hoo.src = "https://cdn.glitch.com/5ef5b48c-14c3-4d50-96a8-b54848ab0926%2F398734__anthousai__owl.wav?1552602488318"
 
 
 let animal0 = document.querySelector('#animal0')
@@ -117,3 +123,15 @@ let animal10 = document.querySelector('#animal10')
       console.log('rawr')
       rawr.play()
     })
+
+    let animal18 = document.querySelector('#animal18')
+      animal18.addEventListener('click',function(){
+        console.log('moo')
+        moo.play()
+      })
+
+      let animal21 = document.querySelector('#animal21')
+        animal21.addEventListener('click',function(){
+          console.log('hoo')
+          hoo.play()
+        })

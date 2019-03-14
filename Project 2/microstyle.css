@@ -95,14 +95,14 @@ right: 300px;
 
 #animal5 {
   background: url(gifs/goat.gif);
-  width: 200px;
-  height: 205px;
-  display: none;
-  background-size: 200px;
-  position: absolute;
-  cursor: pointer;
-  top: 100px;
-  right: 800px;
+width: 200px;
+height: 205px;
+display: none;
+background-size: 200px;
+position: absolute;
+cursor: pointer;
+top: 20px;
+right: 720px;
 }
 
 #animal6 {
@@ -251,8 +251,7 @@ right: 100px;
     transform: translateX(-6px) rotate(-1.2deg);
   }
 }
-
-#animal15 {
+.animal15{
   background: url(gifs/animal-15.png);
     width: 330px;
     height: 300px;
@@ -263,8 +262,25 @@ right: 100px;
     top: 380px;
     right: 380px;
 }
+#animal15:active {
+  animation: vroom 0.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+  }
+  @keyframes vroom {
+    0% {
+      transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+      transform-origin: 100% 50%;
+      filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0) scaleY(1) scaleX(1);
+      transform-origin: 50% 50%;
+      filter: blur(0);
+      opacity: 1;
+    }
+  }
 
-#animal16 {
+.animal16{
   background: url(gifs/animal-16.png);
 width: 200px;
 height: 200px;
@@ -276,7 +292,22 @@ top: 230px;
 right: 500px;
 }
 
-#animal17 {
+#animal16:active {
+  	  animation: twirl 0.6s ease-out both;
+  }
+  @keyframes twirl {
+    0% {
+    	transform: rotate(-540deg) scale(0);
+      opacity: 0;
+    }
+    100% {
+      transform: rotate(0) scale(1);
+      opacity: 1;
+    }
+  }
+
+
+.animal17{
   background: url(gifs/animal-17.png);
 width: 200px;
 height: 143px;
@@ -287,6 +318,18 @@ cursor: pointer;
 top: 100px;
 left: 450px;
 }
+#animal17:active {
+  	 animation: flipup 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    animation-fill-mode:forwards;
+  }
+    @keyframes flipup {
+      0% {
+          transform: rotate(0);
+      }
+      100% {
+         transform: rotate(20deg);
+      }
+    }
 
 #animal18 {
   background: url(gifs/animal-18.png);
@@ -300,7 +343,7 @@ top: 570px;
 left: 400px;
 }
 
-#animal19 {
+.animal19{
   background: url(gifs/animal-19.png);
     width: 100px;
     height: 100px;
@@ -311,8 +354,28 @@ left: 400px;
     top: 330px;
     right: 80px;
 }
+#animal19:active {
+  -webkit-animation-name: button-23;
+  animation-name: button-23;
+  -webkit-animation-duration: 0.15s;
+  animation-duration: 0.15s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+@keyframes button-23 {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
 
-#animal20 {
+.animal20 {
   background: url(gifs/animal-20.png);
 width: 200px;
 height: 150px;
@@ -324,19 +387,43 @@ top: 350px;
 left: 100px;
 }
 
+#animal20:active {
+  animation: vibrate 0.3s linear infinite both;
+    }
+    @keyframes vibrate {
+      0% {
+        transform: translate(0);
+      }
+      20% {
+        transform: translate(-2px, 2px);
+      }
+      40% {
+        transform: translate(-2px, -2px);
+      }
+      60% {
+        transform: translate(2px, 2px);
+      }
+      80% {
+        transform: translate(2px, -2px);
+      }
+      100% {
+        transform: translate(0);
+      }
+    }
+
 #animal21 {
   background: url(gifs/animal-21.png);
-    width: 100px;
-    height: 100px;
-    display: none;
-    background-size: 140px;
-    position: absolute;
-    cursor: pointer;
-    top: 70px;
-    right: 91px;
+width: 100px;
+height: 100px;
+display: none;
+background-size: 140px;
+position: absolute;
+cursor: pointer;
+top: 275px;
+right: 800px;
 }
 
-#animal22 {
+.animal22{
   background: url(gifs/animal-22.png);
     width: 150px;
     height: 100px;
@@ -346,4 +433,7 @@ left: 100px;
     cursor: pointer;
     top: 774px;
     right: 800px;
+}
+#animal22:active {
+  width: 220px;
 }
