@@ -1,0 +1,349 @@
+body{
+  background-color: #f1d18a;
+}
+
+img{
+  width: 200px;
+  height:200px;
+  margin-left: 730px;
+  margin-top: 350px;
+}
+
+#clickme {
+  width: 200px;
+  height:210px;
+  left: calc(50vw - 100px);
+  top: calc(50vh - 100px);
+  position: absolute;
+  background: url(gifs/clickme.gif);
+  background-size: 200px;
+  cursor: pointer;
+}
+
+#animal0 {
+  background: url(gifs/dog.gif);
+  width: 240px;
+  height: 240px;
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 200px;
+  background-size: 300px;
+  cursor: pointer;
+}
+
+#animal1 {
+background: url(gifs/bee.gif);
+width: 100px;
+height: 100px;
+display: none;
+background-size: 100px;
+position: absolute;
+cursor: pointer;
+top: 200px;
+left: 350px;
+}
+
+#animal2 {
+  background: url(gifs/fish_bubble.gif);
+  width: 100px;
+  height: 100px;
+  display: none;
+  background-size: 100px;
+  position: absolute;
+  cursor: pointer;
+  top: 500px;
+  left: 250px;
+}
+
+.animal3{
+  background: url(gifs/fox.gif);
+width: 100px;
+height: 100px;
+display: none;
+background-size: 100px;
+position: absolute;
+cursor: pointer;
+top: 320px;
+right: 300px;
+}
+#animal3:active {
+  animation: flip 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+  animation-fill-mode:forwards;
+}
+  @keyframes flip {
+    0% {
+        transform: rotateX(0);
+      }
+  100% {
+        transform: rotateX(-180deg);
+      }
+  }
+
+
+#animal4 {
+  background: url(gifs/frog.gif);
+  width: 100px;
+  height: 105px;
+  display: none;
+  background-size: 100px;
+  position: absolute;
+  cursor: pointer;
+  top: 100px;
+  right: 500px;
+}
+
+#animal5 {
+  background: url(gifs/goat.gif);
+  width: 200px;
+  height: 205px;
+  display: none;
+  background-size: 200px;
+  position: absolute;
+  cursor: pointer;
+  top: 100px;
+  right: 800px;
+}
+
+#animal6 {
+  background: url(gifs/jellyfish.gif);
+  width: 100px;
+  height: 105px;
+  display: none;
+  background-size: 100px;
+  position: absolute;
+  cursor: pointer;
+  top: 784px;
+  left: 558px;
+}
+
+#animal7 {
+  background: url(gifs/kangaroo.gif);
+  width: 210px;
+  height: 220px;
+  display: none;
+  background-size: 210px;
+  position: absolute;
+  cursor: pointer;
+  top: 670px;
+  right: 500px;
+}
+
+.animal8{
+  background: url(gifs/koala.gif);
+  width: 100px;
+  height: 105px;
+  display: none;
+  background-size: 100px;
+  position: absolute;
+  cursor: pointer;
+  top: 650px;
+  right: 850px;
+}
+
+#animal8:active {
+transform: scale(3);
+}
+
+#animal9 {
+  background: url(gifs/mouse.gif);
+    width: 100px;
+    height: 105px;
+    display: none;
+    background-size: 100px;
+    position: absolute;
+    cursor: pointer;
+    top: 200px;
+    left: 100px;
+}
+
+#animal10 {
+  background: url(gifs/octopus.gif);
+    width: 200px;
+    height: 190px;
+    display: none;
+    background-size: 200px;
+    position: absolute;
+    cursor: pointer;
+    top: 350px;
+    left: 400px;
+}
+
+#animal11 {
+  background: url(gifs/ostrich.gif);
+    width: 250px;
+    height: 260px;
+    display: none;
+    background-size: 250px;
+    position: absolute;
+    cursor: pointer;
+    top: 600px;
+    left: 100px;
+}
+
+#animal12 {
+  background: url(gifs/rhino.gif);
+width: 250px;
+height: 260px;
+display: none;
+background-size: 250px;
+position: absolute;
+cursor: pointer;
+top: 600px;
+right: 100px;
+}
+
+.animal13{
+  background: url(gifs/starfish.gif);
+  width: 100px;
+  height: 100px;
+  display: none;
+  background-size: 100px;
+  position: absolute;
+  cursor: pointer;
+  top: 470px;
+  right: 100px;
+}
+#animal13:active {
+  animation: round 0.8s;
+}
+@keyframes round {
+  15% {
+    transform:rotate(0deg);
+  }
+  30% {
+    transform:rotate(180deg);
+  }
+  100% {
+    transform:rotate(360deg);
+  }
+}
+
+.animal14{
+  background: url(gifs/turtle.gif);
+    width: 250px;
+    height: 260px;
+    display: none;
+    background-size: 250px;
+    position: absolute;
+    cursor: pointer;
+    top: -40px;
+    left: 180px;
+}
+
+#animal14:active {
+  animation: wobble 0.8s;
+}
+@keyframes wobble {
+  15% {
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+
+#animal15 {
+  background: url(gifs/animal-15.png);
+    width: 330px;
+    height: 300px;
+    display: none;
+    background-size: 350px;
+    position: absolute;
+    cursor: pointer;
+    top: 380px;
+    right: 380px;
+}
+
+#animal16 {
+  background: url(gifs/animal-16.png);
+width: 200px;
+height: 200px;
+display: none;
+background-size: 230px;
+position: absolute;
+cursor: pointer;
+top: 230px;
+right: 500px;
+}
+
+#animal17 {
+  background: url(gifs/animal-17.png);
+width: 200px;
+height: 143px;
+display: none;
+background-size: 200px;
+position: absolute;
+cursor: pointer;
+top: 100px;
+left: 450px;
+}
+
+#animal18 {
+  background: url(gifs/animal-18.png);
+width: 200px;
+height: 200px;
+display: none;
+background-size: 250px;
+position: absolute;
+cursor: pointer;
+top: 570px;
+left: 400px;
+}
+
+#animal19 {
+  background: url(gifs/animal-19.png);
+    width: 100px;
+    height: 100px;
+    display: none;
+    background-size: 120px;
+    position: absolute;
+    cursor: pointer;
+    top: 330px;
+    right: 80px;
+}
+
+#animal20 {
+  background: url(gifs/animal-20.png);
+width: 200px;
+height: 150px;
+display: none;
+background-size: 200px;
+position: absolute;
+cursor: pointer;
+top: 350px;
+left: 100px;
+}
+
+#animal21 {
+  background: url(gifs/animal-21.png);
+    width: 100px;
+    height: 100px;
+    display: none;
+    background-size: 140px;
+    position: absolute;
+    cursor: pointer;
+    top: 70px;
+    right: 91px;
+}
+
+#animal22 {
+  background: url(gifs/animal-22.png);
+    width: 150px;
+    height: 100px;
+    display: none;
+    background-size: 150px;
+    position: absolute;
+    cursor: pointer;
+    top: 774px;
+    right: 800px;
+}
