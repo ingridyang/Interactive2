@@ -8,16 +8,25 @@ img{
   margin-left: 730px;
   margin-top: 350px;
 }
-
-#clickme {
+.clickme{
   width: 200px;
-  height:210px;
-  left: calc(50vw - 100px);
-  top: calc(50vh - 100px);
-  position: absolute;
-  background: url(gifs/clickme.gif);
-  background-size: 200px;
-  cursor: pointer;
+height: 190px;
+left: calc(50vw - 100px);
+top: calc(50vh - 100px);
+position: absolute;
+background: url(gifs/clickme-14.png);
+background-size: 220px;
+cursor: pointer;
+
+}
+#clickme:hover {
+  background: url(gifs/clickme-23.png);
+  background-size: 220px;
+  height: 190px;
+  width: 200px;
+  
+
+
 }
 
 #animal0 {
@@ -58,17 +67,17 @@ left: 350px;
 
 .animal3{
   background: url(gifs/fox.gif);
-width: 100px;
-height: 100px;
-display: none;
-background-size: 100px;
-position: absolute;
-cursor: pointer;
-top: 320px;
-right: 300px;
+  width: 100px;
+  height: 100px;
+  display: none;
+  background-size: 100px;
+  position: absolute;
+  cursor: pointer;
+  top: 320px;
+  right: 300px;
 }
 #animal3:active {
-  animation: flip 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+  animation: flip 0.1s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
   animation-fill-mode:forwards;
 }
   @keyframes flip {
