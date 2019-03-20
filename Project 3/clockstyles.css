@@ -1,0 +1,45 @@
+body {
+	background: #e9e4e6;
+	color: #f3f9fb;
+	font-family: monaco;
+
+	display: flex;
+	align-items: center;
+  justify-content: center;
+
+  min-height: 100vh;
+}
+
+.classTime {
+	background: #226597;
+}
+
+.hours{
+  color:#048998;
+  position: relative;
+  transform: scale(15);
+  cursor: pointer;
+  z-index: 2;
+}
+
+body:active .hours{
+  left: -400px;
+}
+
+ .minutes{
+  color:#3bb4c1;
+  position: absolute;
+  transform: scale(15);
+}
+
+
+.seconds{
+  position: relative;
+  transform: scale(15);
+  cursor: pointer;
+}
+
+body:active .seconds{
+  left:400px;
+  z-index: 3;
+}
