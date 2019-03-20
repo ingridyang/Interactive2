@@ -7,27 +7,35 @@ body {
 	font-family: 'Inconsolata', monospace;
 	font-size: 20px;
 	font-weight: normal;
+	background-image: url(doggo.jpg);
+	background-size: 450px;
+	text-align: center;
 }
 
 /* this is a comment */
 
+
 #container {
-	width:500px;
+	width: 500px;
 	margin: 0 auto;
+	position: absolute;
+	z-index: 2;
+	margin-left: 660px;
 }
 
 #exercises, #projects {
 	margin: 40px 0px;
+
 }
 
 h1 {
-	color:red;
+	color:white;
 }
 
 h1, h2, h3 {
 	margin: 20px 0;
     font-size:20pt;
-} 
+}
 
 p {
 	margin: 20px 0;
