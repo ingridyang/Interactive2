@@ -30,9 +30,10 @@ body {
 
 h1 {
 	color:white;
+	font-size: 30pt;
 }
 
-h1, h2, h3 {
+ h2, h3 {
 	margin: 20px 0;
     font-size:20pt;
 }
