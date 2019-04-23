@@ -9,36 +9,36 @@ body{
   height: 80px;
   position: absolute;
 }
-
-.portrait{
-  background-image: url(photos/portrait.jpg);
-  background-size: 750px;
-  width: 748px;
-  height: 617px;
-  top: 159px;
-  left: 227px;
-  position: absolute;
-  animation: portrait .75s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+.cupman{
+  background-image: url(photos/cupman.jpg);
+    background-size: 600px;
+    width: 598px;
+    height: 772px;
+    left: 380px;
+    top: 79px;
+    position: absolute;
+    animation: cupman .75s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
-@-webkit-keyframes portrait {
-  0% {
-      transform: scale(0);
-    opacity: 1;
-  }
-  100% {
-      transform: scale(1);
-    opacity: 1;
-  }
+@-webkit-keyframes cupman {
+0% {
+    transform: scale(0);
+  opacity: 1;
 }
-@keyframes dog {
-  0% {
-      transform: scale(0);
-    opacity: 1;
-  }
-  100% {
-      transform: scale(1);
-    opacity: 1;
-  }
+100% {
+    transform: scale(1);
+  opacity: 1;
+}
+}
+@keyframes cupman {
+0% {
+    transform: scale(0);
+  opacity: 1;
+}
+100% {
+    transform: scale(1);
+  opacity: 1;
+}
+}
 }
 }
 
@@ -54,7 +54,7 @@ h1{
   position: absolute;
   animation: about 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
-@-webkit-keyframes about{
+@-webkit-keyframes about {
   0% {
       transform: scale(0);
     opacity: 1;
@@ -64,7 +64,7 @@ h1{
     opacity: 1;
   }
 }
-@keyframes dog {
+@keyframes about {
   0% {
       transform: scale(0);
     opacity: 1;
