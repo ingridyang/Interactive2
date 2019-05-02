@@ -73,3 +73,23 @@ h1{
     opacity: 1;
   }
 }
+
+@media only screen and (max-width: 500px){
+  .portrait{
+    background-image: url(photos/portrait.jpg);
+    background-size: 340px;
+    width: 341px;
+    height: 293px;
+    top: 159px;
+    left: 42px;
+  }
+  .about{
+    top: 465px;
+right: 143px;
+width: 255px;
+font-size: 9px;
+position: absolute;
+  }
+
+
+}

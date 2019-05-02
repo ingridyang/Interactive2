@@ -322,7 +322,7 @@ left: 211px;
   position: absolute;
 }
 .about{
-  top: 64px;
+  top: 66px;
 right: -22px;
 width: 400px;
 font-size: 10px;
@@ -330,20 +330,52 @@ position: absolute;
 }
 h1{
   font-family: 'Roboto Condensed', sans-serif;
-      font-size: 18pt;
+      font-size: 17pt;
 }
 h2{
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 12pt;
-  top: 32px;
+  top: 29px;
     position: absolute;
 }
 }
 @media only print {
-    body {
-      background: transparent;
+  @media only print {
+      body {
+        background: transparent;
+      }
+      .colors {
+        display: none;
+      }
+      .print{
+        display: none;
+      }
+      #print:hover{
+        display: none;
+      }
+      .info{
+        display:none;
+      }
+      .maincup{
+        background-size: 1200px;
+        width: 1100px;
+        height: 790px;
+        left: -130px;
+        top: 80px;
+        position: absolute;
+      }
+      .maincup * {
+        background-size: 1200px;
+        width: 1100px;
+        height: 790px;
+        position: absolute;
+        top:0;
+        left:0;
+      }
+      .back{
+        display:none;
+      }
+      .about{
+        display: none;
+      }
     }
-    .colors {
-      display: none;
-    }
-  }
