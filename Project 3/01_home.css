@@ -4,7 +4,7 @@ body{
 .dog{
   width: 275px;
   height: 190px;
-  left: calc(46vw - 100px);
+  left: calc(45vw - 100px);
   top: calc(47vh - 100px);
   position: absolute;
   background: url(photos/dog1.png);
@@ -16,6 +16,16 @@ body{
   background-size: 308px;
   height: 203px;
   width: 295px;
-  left: calc(46vw - 100px);
+  left: calc(45vw - 100px);
   top: calc(44vh - 100px);
   cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+    .dog{
+          left: calc(31vw - 100px);
+    }
+    #dog:hover{
+      left: calc(33vw - 100px);
+    }
+  }

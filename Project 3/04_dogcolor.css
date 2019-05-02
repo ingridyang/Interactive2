@@ -1,0 +1,375 @@
+body{
+  background: #1fb0d9;
+}
+
+.keith{
+  background-image: url(photos/keithharing.png);
+  background-size: 150px;
+  width: 160px;
+  height: 80px;
+  position: absolute;
+}
+
+.maindog{
+  background-image: url(photocolor/maindog.png);
+    background-size: 1200px;
+    width: 1100px;
+    height: 790px;
+    left: 246px;
+    top: 80px;
+    position: absolute;
+}
+.maindog * {
+  background-size: 1200px;
+  width: 1100px;
+  height: 790px;
+  position: absolute;
+  top:0;
+  left:2;
+}
+
+.maindog #back {
+  background-image: url(photocolor/maindog.png);
+  width: 884px;
+  height: 593px;
+  position: absolute;
+  top: 9px;
+  left: 195px;
+  background-position-y: -10px;
+  background-position-x: -194px;
+  z-index: 6;
+}
+
+.maindog #bot {
+  background-image: url(photocolor/maindog.png);
+  width: 892px;
+  height: 146px;
+  position: absolute;
+  top: 589px;
+  left: 195px;
+  background-position-y: -590px;
+  background-position-x: -197px;
+  z-index: 6;
+}
+
+
+.maindog #left {
+  background-image: url(photocolor/maindog.png);
+  width: 422px;
+  height: 457px;
+  position: absolute;
+  top: 224px;
+  left: 202px;
+  background-position-y: -225px;
+  background-position-x: -203px;
+  z-index: 10;
+}
+
+
+.maindog #right {
+  background-image: url(photocolor/maindog.png);
+  width: 366px;
+  height: 470px;
+  position: absolute;
+  top: 221px;
+  left:727px;
+  background-position-y: -222px;
+  background-position-x: -726px;
+  z-index:1000;
+}
+
+
+
+#red {
+  background: #fd0607;
+  height: 100px;
+  width: 100px;
+  top: 180px;
+  left: 200px;
+  border-radius: 15px;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+}
+
+#yellow {
+  background: #ffff07;
+  height: 100px;
+  width: 100px;
+  top: 345px;
+  left: 200px;
+  border-radius: 15px;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+}
+
+#blue {
+  background: #105175;
+  height: 100px;
+  width: 100px;
+  top: 511px;
+  left: 200px;
+  border-radius: 15px;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+}
+
+#pink {
+  background: #c72389;
+  height: 100px;
+  width: 100px;
+  top: 672px;
+  left: 200px;
+  border-radius: 15px;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+}
+
+#black1{
+  background: black;
+  height: 140px;
+  width: 140px;
+  top: 160px;
+  left: 180px;
+  border-radius: 34px;
+  position: absolute;
+}
+
+#black2{
+  background: black;
+  height: 140px;
+  width: 140px;
+  top: 325px;
+  left: 180px;
+  border-radius: 34px;
+  position: absolute;
+}
+#black3{
+  background: black;
+  height: 140px;
+  width: 140px;
+  top: 490px;
+  left: 180px;
+  border-radius: 34px;
+  position: absolute;
+}
+#black4{
+  background: black;
+  height: 140px;
+  width: 140px;
+  top: 652px;
+  left: 180px;
+  border-radius: 34px;
+  position: absolute;
+}
+
+.colors{
+  top: -45px;
+  left: -13px;
+  position: absolute;
+}
+
+h1{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 23pt;
+}
+h2{
+  font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15pt;
+    top: 40px;
+    position: absolute;
+}
+
+.about{
+  top: 94px;
+right: 45px;
+width: 256px;
+font-size: 12px;
+position: absolute;
+}
+
+.back{
+  background-image: url(photos/backarrow.png);
+    background-size: 91px;
+    height: 53px;
+    width: 101px;
+    top: 20px;
+    right: 30px;
+    position: absolute;
+}
+
+.info{
+  background-image: url(photos/babyinfo2.png);
+background-size: 101px;
+height: 66px;
+width: 101px;
+top: 810px;
+right: 33px;
+position: absolute;
+}
+#info:hover{
+  background-image: url(photos/babyinfo.png);
+  background-size: 101px;
+  height: 83px;
+  width: 101px;
+  top: 810px;
+  right: 33px;
+  position: absolute;
+}
+
+.print {
+  background-image: url(photos/print1.png);
+  background-size: 174px;
+  height: 140px;
+  width: 140px;
+  top: 750px;
+  left: 30px;
+  position: absolute;
+}
+
+#print:hover{
+  background-image: url(photos/print2.png);
+  background-size: 174px;
+  height: 140px;
+  width: 179px;
+  top: 750px;
+  left: 30px;
+  position: absolute;
+}
+
+@media only screen and (max-width: 500px){
+  .maindog{
+    background-size: 500px;
+    width: 490px;
+    height: 310px;
+    left: -48px;
+    top: 210px;
+}
+    .maindog * {
+      background-size: 500px;
+      width: 490px;
+      height: 310px;
+      top:0;
+      left:0;
+  }
+  .maindog #back {
+    width: 366px;
+height: 229px;
+position: absolute;
+top: 16px;
+left: 85px;
+background-position-y: -16px;
+background-position-x: -85px;
+  }
+  .maindog #bot {
+    width: 366px;
+height: 54px;
+position: absolute;
+top: 247px;
+left: 86px;
+background-position-y: -884px;
+background-position-x: -86px;
+}
+.maindog #right {
+  width: 159px;
+height: 180px;
+position: absolute;
+top: 99px;
+left: 301px;
+background-position-y: -99px;
+background-position-x: -801px;
+}
+.maindog #left {
+  width: 181px;
+height: 169px;
+position: absolute;
+top: 102px;
+left: 81px;
+background-position-y: -101px;
+background-position-x: -81px;
+z-index: 10;
+}
+#red {
+  background: #fd0607;
+    height: 85px;
+    width: 85px;
+    top: 480px;
+    left: 7px;
+    border-radius: 15px;
+}
+
+#yellow {
+  background: #ffff07;
+    height: 85px;
+    width: 85px;
+    top: 580px;
+    left: 87px;
+    border-radius: 15px;
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#blue {
+  background: #105175;
+height: 85px;
+width: 85px;
+top: 579px;
+    left: 232px;
+border-radius: 15px;
+position: absolute;
+z-index: 2;
+cursor: pointer;
+}
+#pink {
+  background: #c72389;
+height: 85px;
+width: 85px;
+top: 579px;
+    left: 232px;
+border-radius: 15px;
+position: absolute;
+z-index: 2;
+cursor: pointer;
+}
+#black1{
+  background: black;
+    height: 125px;
+    width: 125px;
+    top: 461px;
+    left: -13px;
+    border-radius: 34px;
+    position: absolute;
+}
+
+#black2{
+  background: black;
+  height: 125px;
+width: 125px;
+    top: 561px;
+    left: 67px;
+    border-radius: 34px;
+    position: absolute;
+}
+#black3{
+  background: black;
+  height: 125px;
+width: 125px;
+  top: 561px;
+left: 211px;
+  border-radius: 34px;
+  position: absolute;
+}
+.colors {
+  top: 67px;
+  left: 90px;
+  position: absolute;
+}
+
+
+
+
+}

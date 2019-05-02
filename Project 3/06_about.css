@@ -9,37 +9,36 @@ body{
   height: 80px;
   position: absolute;
 }
-.heart{
-  background-image: url(photos/heart.jpg);
-    background-size: 700px;
-    width: 700px;
-    height: 700px;
-    left: 280px;
-    top: 110px;
-    position: absolute;
-    animation: heart .75s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+.portrait{
+  background-image: url(photos/portrait.jpg);
+  background-size: 750px;
+  width: 748px;
+  height: 617px;
+  top: 159px;
+  left: 227px;
+  position: absolute;
+  animation: portrait .75s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
-@-webkit-keyframes heart {
-0% {
-    transform: scale(0);
-  opacity: 1;
+@-webkit-keyframes portrait {
+  0% {
+      transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+      transform: scale(1);
+    opacity: 1;
+  }
 }
-100% {
-    transform: scale(1);
-  opacity: 1;
-}
-}
-@keyframes heart {
-0% {
-    transform: scale(0);
-  opacity: 1;
-}
-100% {
-    transform: scale(1);
-  opacity: 1;
-}
-}
-}
+@keyframes dog {
+  0% {
+      transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+      transform: scale(1);
+    opacity: 1;
+  }
 }
 
 h1{
@@ -47,14 +46,14 @@ h1{
 }
 
 .about{
-  top: 300px;
+  top: 190px;
   right: 250px;
   width: 400px;
   font-size: 12px;
   position: absolute;
   animation: about 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
-@-webkit-keyframes about {
+@-webkit-keyframes about{
   0% {
       transform: scale(0);
     opacity: 1;
@@ -64,7 +63,7 @@ h1{
     opacity: 1;
   }
 }
-@keyframes about {
+@keyframes dog {
   0% {
       transform: scale(0);
     opacity: 1;
@@ -73,6 +72,4 @@ h1{
       transform: scale(1);
     opacity: 1;
   }
-}
-}
 }

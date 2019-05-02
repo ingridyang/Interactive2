@@ -1,4 +1,19 @@
+window.addEventListener('resize',pageResized)
 
+
+function pageResized(){
+  console.log(window.innerHeight, window.innerWidth)
+}
+
+
+  pageResized()
+
+  let print = document.querySelector('#print')
+
+print.addEventListener('click',function(){
+  window.print()
+
+})
 
 let redSwatch = document.querySelector('#red')
 let yellowSwatch = document.querySelector('#yellow')
@@ -28,12 +43,19 @@ let right = document.querySelector('#right')
 
 let left = document.querySelector('#left')
   left.addEventListener('click',function(e){
+
     console.log(`url(photocolor/dog_`+currentSwatch+`left.png)`)
     left.style.backgroundImage = `url(photocolor/dog_`+currentSwatch+`left.png)`
 })
 
 let back = document.querySelector('#back')
-  left.addEventListener('click',function(e){
+  back.addEventListener('click',function(e){
     console.log(`url(photocolor/dog_`+currentSwatch+`back.png)`)
     back.style.backgroundImage = `url(photocolor/dog_`+currentSwatch+`back.png)`
+})
+
+let bot = document.querySelector('#bot')
+  bot.addEventListener('click',function(e){
+    console.log(`url(photocolor/dog_`+currentSwatch+`bot.png)`)
+    bot.style.backgroundImage = `url(photocolor/dog_`+currentSwatch+`bot.png)`
 })
